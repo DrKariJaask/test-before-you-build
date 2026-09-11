@@ -1,0 +1,97 @@
+---
+const title = "Privacy Notice | Test Before You Build";
+const description =
+  "How Test Before You Build handles the personal information submitted through this website.";
+const canonical = "https://testbeforeyoubuild.com/privacy/";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header>
+      <a href="/">← Test Before You Build</a>
+    </header>
+    <main>
+      <p class="eyebrow">Privacy notice</p>
+      <h1>How we handle your information</h1>
+      <p class="lead">
+        This notice explains how Test Before You Build and Kari Jääskeläinen
+        handle information submitted through this website.
+      </p>
+
+      <h2>What we collect</h2>
+      <p>
+        The contact form asks for your name, email address, and a description of
+        the idea you want to discuss. You may also choose to provide information
+        about the intended customer and the problem the idea is designed to solve.
+      </p>
+
+      <h2>Why we use it</h2>
+      <p>
+        We use the information to respond to your enquiry, assess whether the
+        validation service may be relevant, and discuss possible next steps. We do
+        not use information submitted through the form to train AI models.
+      </p>
+
+      <h2>How the form is delivered</h2>
+      <p>
+        The form is processed by Formspree, which acts as a service provider for
+        delivering your message. Avoid including confidential technical details,
+        trade secrets, health information, or other sensitive personal data in
+        your first message.
+      </p>
+
+      <h2>How long we keep it</h2>
+      <p>
+        We keep enquiries only for as long as they are needed to respond, manage a
+        possible customer relationship, and meet applicable legal obligations.
+      </p>
+
+      <h2>Your choices and rights</h2>
+      <p>
+        You may ask what personal information we hold about you or request its
+        correction or deletion when applicable. You can make that request by using
+        the contact form on the homepage and stating that your message concerns
+        privacy.
+      </p>
+
+      <p class="updated">Last updated: 11 September 2026</p>
+    </main>
+    <footer>
+      <a href="/">Return to the homepage</a>
+    </footer>
+  </body>
+</html>
+
+<style>
+  :root {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", sans-serif;
+    color: #0d1930;
+    background: #f5f8fc;
+    line-height: 1.65;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  header, main, footer { width: min(760px, calc(100% - 40px)); margin: 0 auto; }
+  header { padding: 30px 0; }
+  main { margin-top: 28px; padding: 48px; border: 1px solid #d8e0ec; border-radius: 24px; background: #fff; }
+  footer { padding: 30px 0 50px; }
+  a { color: #155eef; font-weight: 750; text-underline-offset: 3px; }
+  .eyebrow { margin: 0 0 12px; color: #155eef; font-size: .9rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+  h1 { margin: 0 0 20px; font-size: clamp(2.4rem, 7vw, 4.4rem); line-height: 1.08; letter-spacing: -.025em; }
+  h2 { margin: 36px 0 8px; font-size: 1.35rem; }
+  p { margin: 0 0 18px; color: #536781; }
+  .lead { font-size: 1.18rem; color: #405573; }
+  .updated { margin-top: 40px; font-size: .9rem; }
+  @media (max-width: 640px) { main { padding: 30px 24px; } }
+</style>

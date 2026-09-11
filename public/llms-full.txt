@@ -1,0 +1,35 @@
+# Test Before You Build — Full Site Context
+
+Canonical website: https://testbeforeyoubuild.com/
+
+## Service
+
+Test Before You Build is a customer validation service for B2B and B2C products, services, software, and research-based innovations. It is intended for decisions that should be informed by direct evidence from realistic potential customers before significant development investment.
+
+## Idea Validation Sprint
+
+The service provider defines the target customer and the commercial assumptions to test, identifies 20 realistic potential customers, interviews them directly, analyses the evidence, and produces a BUILD, CHANGE, or KILL recommendation.
+
+The interviews explore problem severity, current alternatives, buying behaviour, willingness to change, objections, and willingness-to-pay signals.
+
+The fixed project price is €2,900.
+
+Twenty qualitative interviews can reveal repeated themes and important disagreements. They do not prove market demand statistically, and the final recommendation explains the limits of the evidence.
+
+## Suitability
+
+The service is a strong fit when potential buyers can be identified, the client faces a meaningful build, funding, or commercialisation decision, and the client is willing to change or stop the idea if the evidence points that way.
+
+It is not a substitute for statistically representative market research and is not intended to confirm a decision that has already been made.
+
+## Service provider
+
+Kari Jääskeläinen is an entrepreneur, business leader, and consultant with a Master’s degree in Entrepreneurship and a Doctor of Arts degree in Digital Media. He has worked on around 200 projects and has made around 2,000 sales calls per year.
+
+## Contact
+
+Ideas can be submitted through the contact form at https://testbeforeyoubuild.com/#contact. The form asks for a name, email address, and description of the idea. Information about the intended customer and pain point is optional.
+
+Privacy notice: https://testbeforeyoubuild.com/privacy/
+
+Markdown version of the homepage: https://testbeforeyoubuild.com/index.md

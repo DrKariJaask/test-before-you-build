@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://testbeforeyoubuild.com/sitemap-index.xml
+
+# Search indexing and real-time AI search visibility are allowed.
+# Permission for model training is not granted by this file.
