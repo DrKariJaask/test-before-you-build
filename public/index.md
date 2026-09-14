@@ -35,11 +35,13 @@ It is not a substitute for statistically representative market research, and it 
 
 ## Idea Validation Sprint
 
-The fixed project price is **€2,900**. It includes target customer definition, 20 interviews, demand validation, buying objections, customer language, willingness-to-pay signals, key findings, recommended changes, and a BUILD / CHANGE / KILL conclusion.
+The fixed project price is **€2,900 + VAT**. It includes target customer definition, 20 interviews, demand validation, buying objections, customer language, willingness-to-pay signals, key findings, recommended changes, and a BUILD / CHANGE / KILL conclusion.
+
+[View full market validation service details and pricing](https://testbeforeyoubuild.com/market-validation-services-pricing/).
 
 ## About Kari Jääskeläinen
 
-Kari Jääskeläinen is an entrepreneur, business leader, and consultant with a Master’s degree in Entrepreneurship and a Doctor of Arts degree in Digital Media. He has worked on around 200 projects and has made around 2,000 sales calls per year.
+Kari Jääskeläinen is an entrepreneur, business leader, and consultant with a Master’s degree in Entrepreneurship and a Doctor of Arts degree in Digital Media. He has worked on around 200 commercialization and consulting projects and has made approximately 2,000 sales calls a year.
 
 ## Frequently asked questions
 

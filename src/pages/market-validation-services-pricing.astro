@@ -1,0 +1,532 @@
+---
+const title = "Market Validation Services and Pricing | €2,900 + VAT";
+const description =
+  "Independent market validation through 20 customer interviews, transcripts, evidence analysis and a BUILD, CHANGE or KILL recommendation. Fixed price: €2,900 + VAT.";
+const canonical =
+  "https://testbeforeyoubuild.com/market-validation-services-pricing/";
+const siteUrl = "https://testbeforeyoubuild.com/";
+const socialImage = `${siteUrl}og.jpg`;
+
+const faqs = [
+  {
+    question: "Who can validate a business, product or research-based idea?",
+    answer:
+      "An experienced independent customer-discovery professional can validate it by interviewing realistic potential buyers or users and analysing their problems, behaviour and decision criteria.",
+  },
+  {
+    question: "Who selects the interviewees?",
+    answer:
+      "Kari identifies approximately 30–40 suitable prospects based on the agreed target definition. The client approves the target list before outreach begins.",
+  },
+  {
+    question: "Who recruits and interviews the participants?",
+    answer:
+      "Kari handles the outreach and conducts the 20 interviews.",
+  },
+  {
+    question: "Will the interview participants be buyers or users?",
+    answer:
+      "Depending on the project, the target group may consist of potential buyers, users or both. The target definition and prospect list are agreed with the client before recruitment begins.",
+  },
+  {
+    question: "Why conduct 20 interviews?",
+    answer:
+      "Twenty interviews provide a focused qualitative evidence base for identifying recurring patterns and important disagreements. They are not statistically representative proof of market demand.",
+  },
+  {
+    question: "Why use an independent interviewer?",
+    answer:
+      "An independent interviewer can ask neutral questions, investigate objections without defending the idea and reduce the influence of internal assumptions on the findings.",
+  },
+  {
+    question: "What does the client receive?",
+    answer:
+      "The client receives the transcripts, evidence analysis, written report, recommended changes and BUILD, CHANGE or KILL recommendation.",
+  },
+  {
+    question: "Can you validate specialised B2B or research-based ideas?",
+    answer:
+      "Yes, provided a realistic target group can be defined and reached. The specialisation and accessibility of that group may affect the schedule.",
+  },
+  {
+    question: "How is interview material handled?",
+    answer:
+      "Recording, transcription, client access, confidentiality, retention and deletion arrangements are confirmed as part of the project. Participants are informed about the handling of their interview material.",
+  },
+  {
+    question: "Does the service guarantee that the idea will succeed?",
+    answer:
+      "No. The service reduces uncertainty by gathering direct qualitative evidence. It cannot guarantee demand, sales, adoption, funding or commercial success.",
+  },
+  {
+    question: "How much does the service cost?",
+    answer: "The fixed project price is €2,900 + VAT.",
+  },
+  {
+    question: "How long does the project take?",
+    answer:
+      "A typical project takes approximately 2–4 weeks. The schedule depends primarily on the accessibility and specialisation of the target customer group and is confirmed before the project begins.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": `${canonical}#webpage`,
+      url: canonical,
+      name: title,
+      description,
+      isPartOf: { "@id": `${siteUrl}#website` },
+      about: { "@id": `${canonical}#service` },
+      breadcrumb: { "@id": `${canonical}#breadcrumb` },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${canonical}#breadcrumb`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Test Before You Build",
+          item: siteUrl,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Market Validation Services and Pricing",
+          item: canonical,
+        },
+      ],
+    },
+    {
+      "@type": "Organization",
+      "@id": `${siteUrl}#organization`,
+      name: "Test Before You Build",
+      url: siteUrl,
+      founder: { "@id": `${siteUrl}#kari-jaaskelainen` },
+    },
+    {
+      "@type": "Person",
+      "@id": `${siteUrl}#kari-jaaskelainen`,
+      name: "Kari Jääskeläinen",
+      url: `${canonical}#about-kari`,
+      worksFor: { "@id": `${siteUrl}#organization` },
+      jobTitle: "Customer validation consultant",
+    },
+    {
+      "@type": "Service",
+      "@id": `${canonical}#service`,
+      name: "Market Validation Service",
+      url: canonical,
+      description,
+      provider: { "@id": `${siteUrl}#organization` },
+      serviceType: "Independent market validation and customer discovery",
+      offers: {
+        "@type": "Offer",
+        price: "2900",
+        priceCurrency: "EUR",
+        url: `${canonical}#pricing`,
+        availability: "https://schema.org/InStock",
+      },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${canonical}#faq-schema`,
+      mainEntity: faqs.map(({ question, answer }) => ({
+        "@type": "Question",
+        name: question,
+        acceptedAnswer: { "@type": "Answer", text: answer },
+      })),
+    },
+  ],
+};
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b1f3a" />
+    <link rel="canonical" href={canonical} />
+    <link
+      rel="alternate"
+      type="text/markdown"
+      href={`${siteUrl}market-validation-services-pricing.md`}
+    />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Test Before You Build" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <title>{title}</title>
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/">
+          <span class="brand-mark"></span>
+          <span>Test Before You Build</span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="#how-it-works">How it works</a>
+          <a href="#deliverables">What you receive</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <a class="button button-small" href="#contact">Submit your idea</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Market validation services and pricing</p>
+            <h1>
+              Know whether your idea is worth building
+              <span>— before you build it.</span>
+            </h1>
+            <p class="hero-lead">
+              Independent market validation through 20 customer interviews,
+              evidence analysis and a clear <strong>BUILD, CHANGE or KILL</strong>
+              recommendation. Fixed price: <strong>€2,900 + VAT.</strong>
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#contact">Submit your idea</a>
+              <a class="text-link" href="#included">See what is included <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+
+          <aside class="project-card" aria-label="Project summary">
+            <div class="project-card-top">
+              <span>Independent validation project</span>
+              <strong>€2,900 + VAT</strong>
+            </div>
+            <dl>
+              <div><dt>Research</dt><dd>20 interviews</dd></div>
+              <div><dt>Prospect list</dt><dd>30–40 for your approval</dd></div>
+              <div><dt>Evidence</dt><dd>Transcripts and analysis</dd></div>
+              <div><dt>Decision</dt><dd>BUILD · CHANGE · KILL</dd></div>
+              <div><dt>Typical timeline</dt><dd>Approximately 2–4 weeks</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-compact">
+        <div class="container split-layout">
+          <div>
+            <p class="eyebrow">The decision</p>
+            <h2>Do customers experience a problem worth solving?</h2>
+          </div>
+          <div class="body-copy">
+            <p>
+              Internal enthusiasm, desk research and AI analysis can help shape
+              an idea. They cannot replace direct conversations with realistic
+              potential buyers or users.
+            </p>
+            <p>
+              Test Before You Build investigates how the target group experiences
+              the problem, what they do about it today, what could prevent adoption
+              and whether the proposed value is commercially meaningful.
+            </p>
+            <p>
+              The evidence helps you decide whether to proceed, change direction
+              or stop before committing more resources.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Who it is for</p>
+            <h2>Independent evidence for a meaningful investment decision.</h2>
+          </div>
+          <div class="fit-grid">
+            <article class="fit-card fit-card-positive">
+              <h3>A strong fit for</h3>
+              <ul>
+                <li>B2B and B2C founders validating an early-stage product or service.</li>
+                <li>Corporate innovation teams assessing a new product concept.</li>
+                <li>Researchers and technology-transfer teams exploring commercial demand.</li>
+                <li>EU-funded projects seeking external customer evidence.</li>
+                <li>Accelerators and investors seeking an independent view.</li>
+                <li>Teams developing software or research-based innovations.</li>
+              </ul>
+            </article>
+            <article class="fit-card">
+              <h3>Not the right fit when</h3>
+              <ul>
+                <li>You need statistically representative quantitative research.</li>
+                <li>No realistic group of potential buyers or users can be defined.</li>
+                <li>You only want positive feedback for a decision already made.</li>
+                <li>You are unwilling to change or stop the idea if the evidence is weak.</li>
+              </ul>
+            </article>
+          </div>
+          <div class="center-action"><a class="button" href="#contact">Submit your idea</a></div>
+        </div>
+      </section>
+
+      <section id="included" class="section">
+        <div class="container included-layout">
+          <div class="section-heading sticky-heading">
+            <p class="eyebrow">Market validation services and pricing</p>
+            <h2>What the €2,900 + VAT service includes</h2>
+            <p>
+              The fixed-price project covers the customer-discovery work needed
+              to turn an idea into a more informed commercial decision.
+            </p>
+          </div>
+          <div class="included-list">
+            <div><span>01</span><p>Clarification of the idea and the decision it must support.</p></div>
+            <div><span>02</span><p>Definition of the relevant potential-buyer or user group.</p></div>
+            <div><span>03</span><p>Identification of approximately 30–40 suitable prospects.</p></div>
+            <div><span>04</span><p>Client review and approval of the target list before outreach.</p></div>
+            <div><span>05</span><p>Recruitment of 20 interview participants.</p></div>
+            <div><span>06</span><p>Preparation and completion of 20 interviews.</p></div>
+            <div><span>07</span><p>Interview transcripts.</p></div>
+            <div><span>08</span><p>Analysis of problems, current behaviour and demand signals.</p></div>
+            <div><span>09</span><p>Buying objections and willingness-to-change and willingness-to-pay signals.</p></div>
+            <div><span>10</span><p>A written report, recommended changes and a BUILD, CHANGE or KILL recommendation.</p></div>
+          </div>
+        </div>
+        <div class="container scope-note">
+          The participants may be realistic potential buyers, users or both,
+          depending on the agreed target definition. The service does not imply
+          that every participant is a confirmed buyer.
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section section-dark">
+        <div class="container">
+          <div class="section-heading section-heading-light">
+            <p class="eyebrow eyebrow-light">The 20-interview process</p>
+            <h2>From commercial question to decision in six steps.</h2>
+          </div>
+          <div class="process-grid">
+            <article><span>01</span><h3>Define the decision and target group</h3><p>You explain what you are planning to build, who it is for and which assumptions create the greatest commercial risk.</p></article>
+            <article><span>02</span><h3>Identify and approve the prospects</h3><p>Kari identifies approximately 30–40 suitable prospects based on the agreed target definition. The client approves the target list before outreach begins.</p></article>
+            <article><span>03</span><h3>Recruit 20 participants</h3><p>Kari handles the outreach and recruits 20 suitable participants.</p></article>
+            <article><span>04</span><h3>Conduct and document the interviews</h3><p>Kari conducts 20 independent interviews examining problems, current alternatives, decision criteria and barriers to change. The interviews are transcribed.</p></article>
+            <article><span>05</span><h3>Analyse the evidence</h3><p>Responses are compared to identify repeated themes, meaningful disagreements, objections and demand signals.</p></article>
+            <article><span>06</span><h3>Deliver the recommendation</h3><p>You receive the transcripts, analysis, report, recommended changes and BUILD, CHANGE or KILL recommendation.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-layout">
+          <div>
+            <p class="eyebrow">Why independence matters</p>
+            <h2>Hear the evidence without having to defend the idea.</h2>
+          </div>
+          <div class="body-copy">
+            <p>
+              Teams are naturally close to their ideas. This can affect which
+              questions are asked, how participants respond and how ambiguous
+              answers are interpreted.
+            </p>
+            <ul class="check-list">
+              <li>Consistent, non-leading questions.</li>
+              <li>Less pressure on participants to please the idea’s creator.</li>
+              <li>Customer evidence separated from internal advocacy.</li>
+              <li>Objections investigated without defending the concept.</li>
+              <li>An external evidence base for decision-makers.</li>
+            </ul>
+            <p>
+              Your team still provides the technical and market context.
+              Independence protects the neutrality of the interviews and analysis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="deliverables" class="section section-soft">
+        <div class="container deliverables-layout">
+          <div class="deliverables-card">
+            <p class="eyebrow">What you receive</p>
+            <h2>A decision-ready evidence package.</h2>
+            <p>
+              You receive the 20 interview transcripts, analysis
+              of recurring findings and important differences, a written report,
+              recommended changes and the final recommendation.
+            </p>
+            <p>
+              The report explains relevant evidence limitations. The deliverables
+              support a better-informed decision; they do not promise future sales,
+              adoption, funding or commercial success.
+            </p>
+          </div>
+          <div class="decision-grid">
+            <article class="decision build"><strong>BUILD</strong><p>The evidence supports continued investment, subject to the risks and assumptions identified.</p></article>
+            <article class="decision change"><strong>CHANGE</strong><p>The opportunity may be meaningful, but the customer, problem, value proposition, positioning or solution should be revised.</p></article>
+            <article class="decision kill"><strong>KILL</strong><p>The evidence does not currently justify further investment in the idea or direction tested.</p></article>
+          </div>
+        </div>
+        <div class="container decision-note">
+          The recommendation supports the client’s decision. It does not replace
+          the client’s commercial, technical or investment judgement.
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="container pricing-layout">
+          <div class="pricing-copy">
+            <p class="eyebrow">Price and schedule</p>
+            <h2>One complete validation project.</h2>
+            <p>
+              A typical project takes approximately <strong>2–4 weeks</strong>.
+              The schedule depends primarily on the accessibility and specialisation
+              of the target customer group and is confirmed before the project begins.
+            </p>
+          </div>
+          <div class="price-card">
+            <span class="price-label">Fixed project price</span>
+            <p class="price">€2,900 + VAT</p>
+            <p>
+              Includes prospect selection and approval, recruitment, 20 interviews,
+              transcripts, analysis, report and recommendation.
+            </p>
+            <a class="button button-full" href="#contact">Submit your idea</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-kari" class="section section-dark">
+        <div class="container split-layout">
+          <div>
+            <p class="eyebrow eyebrow-light">Your independent validation partner</p>
+            <h2>The interviews are led by an experienced commercial operator.</h2>
+          </div>
+          <div class="body-copy body-copy-light">
+            <p>
+              Dr. Kari Jääskeläinen is an entrepreneur, business leader and consultant
+              with a Master’s degree in Entrepreneurship and a Doctor of Arts
+              degree in Digital Media.
+            </p>
+            <p>
+              He has worked on around 200 commercialization and consulting projects
+              and has made approximately 2,000 sales calls a year.
+            </p>
+            <p>
+              This combination of commercial and research experience helps him
+              conduct independent customer interviews, recognise buying objections
+              and translate qualitative evidence into a practical decision.
+            </p>
+            <a class="button button-light" href="#contact">Ask whether your idea is suitable</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section section-soft">
+        <div class="container faq-layout">
+          <div>
+            <p class="eyebrow">Frequently asked questions</p>
+            <h2>Questions before you commission the work.</h2>
+          </div>
+          <div class="faq-list">
+            {faqs.map(({ question, answer }) => (
+              <details>
+                <summary>{question}</summary>
+                <p>{answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-card contact-form-layout">
+          <div class="contact-copy">
+            <p class="eyebrow eyebrow-light">Submit your idea</p>
+            <h2>Let us ask the customers before you build.</h2>
+            <p>
+              Tell us what you are planning, who might buy or use it and what
+              problem it would solve. Kari will review your submission personally
+              and contact you about whether the service is a suitable fit.
+            </p>
+          </div>
+          <form
+            id="idea-form"
+            class="idea-form"
+            action="https://formspree.io/f/xwlkqzap"
+            method="POST"
+          >
+            <div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required /></div>
+            <div class="form-field"><label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" required /></div>
+            <div class="form-field full"><label for="idea">What are you planning to build?</label><textarea id="idea" name="idea" rows="3" required></textarea></div>
+            <div class="form-field full"><label for="customer">Who would buy or use it?</label><textarea id="customer" name="customer" rows="3" required></textarea></div>
+            <div class="form-field full"><label for="pain-point">What problem would it solve?</label><textarea id="pain-point" name="pain_point" rows="3" required></textarea></div>
+            <input type="hidden" name="_subject" value="New Test Before You Build idea — services and pricing page" />
+            <button class="button button-light form-submit" type="submit">Submit your idea</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+            <p class="privacy-note">
+              By submitting your idea, you ask us to contact you about it. Do not
+              include trade secrets or sensitive personal data in your first message.
+              Read our <a href="/privacy/">privacy notice</a>.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <span>© 2026 Test Before You Build</span>
+        <div class="footer-links"><a href="/">Homepage</a><a href="/privacy/">Privacy</a><span>Evidence before investment.</span></div>
+      </div>
+    </footer>
+
+    <script is:inline>
+      const ideaForm = document.querySelector('#idea-form');
+      ideaForm?.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const form = event.currentTarget;
+        const submitButton = form.querySelector('button[type="submit"]');
+        const status = form.querySelector('.form-status');
+        submitButton.disabled = true;
+        submitButton.textContent = 'Sending…';
+        status.textContent = '';
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { Accept: 'application/json' },
+          });
+          if (!response.ok) throw new Error('Submission failed');
+          window.location.assign('/thank-you/');
+        } catch (error) {
+          status.textContent = 'We could not send your idea. Please try again in a moment.';
+          submitButton.disabled = false;
+          submitButton.textContent = 'Submit your idea';
+        }
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#0d1930;background:#fff;line-height:1.6;font-synthesis:none;text-rendering:optimizeLegibility}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}.container{width:min(1160px,calc(100% - 40px));margin:0 auto}.site-header{position:sticky;top:0;z-index:20;border-bottom:1px solid #dce4ef;background:rgba(255,255,255,.94);backdrop-filter:blur(14px)}.nav-wrap{min-height:76px;display:flex;align-items:center;gap:28px}.brand{display:inline-flex;align-items:center;gap:11px;font-weight:900;text-decoration:none;white-space:nowrap}.brand-mark{width:18px;height:18px;border-radius:5px;background:#155eef;box-shadow:8px 8px 0 #79a2ff}.main-nav{display:flex;align-items:center;gap:25px;margin-left:auto}.main-nav a{color:#405573;font-size:.94rem;font-weight:750;text-decoration:none}.button{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border:0;border-radius:10px;background:#155eef;color:#fff;font:inherit;font-weight:850;text-decoration:none;cursor:pointer;transition:transform .16s ease,background .16s ease}.button:hover{background:#0f4dcc;transform:translateY(-1px)}.button-small{padding:11px 17px;font-size:.92rem}.button-light{background:#fff;color:#102a4f}.button-light:hover{background:#eaf1ff}.button-full{width:100%}.hero{padding:92px 0 86px;background:linear-gradient(140deg,#f5f8ff 0%,#fff 62%)}.hero-grid{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(360px,.82fr);align-items:center;gap:70px}.eyebrow{margin:0 0 14px;color:#155eef;font-size:.79rem;font-weight:900;letter-spacing:.11em;text-transform:uppercase}.eyebrow-light{color:#8bb4ff}h1,h2,h3{margin-top:0;letter-spacing:-.015em}h1{max-width:790px;margin-bottom:25px;font-size:clamp(3rem,6vw,5.25rem);line-height:1.05}h1 span{display:block;color:#155eef}h2{margin-bottom:22px;font-size:clamp(2.15rem,4vw,3.55rem);line-height:1.12}h3{font-size:1.25rem;line-height:1.25}.hero-lead{max-width:720px;margin:0 0 30px;color:#405573;font-size:1.24rem;line-height:1.7}.hero-actions{display:flex;align-items:center;gap:24px}.text-link{color:#155eef;font-weight:850;text-underline-offset:4px}.project-card{overflow:hidden;border:1px solid #cfd9e8;border-radius:22px;background:#0b1f3a;color:#fff;box-shadow:0 30px 80px rgba(13,25,48,.16)}.project-card-top{display:flex;justify-content:space-between;gap:20px;padding:23px 25px;border-bottom:1px solid rgba(255,255,255,.15);color:#c9d8ee;font-size:.86rem;font-weight:750}.project-card-top strong{color:#fff;font-size:1.1rem}.project-card dl{margin:0;padding:9px 25px 21px}.project-card dl div{display:grid;grid-template-columns:1fr 1.35fr;gap:20px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.12)}.project-card dl div:last-child{border:0}.project-card dt{color:#9fb0ca;font-size:.84rem}.project-card dd{margin:0;font-weight:800}.section{padding:96px 0}.section-compact{padding:76px 0}.section-soft{background:#f4f7fb}.section-dark{background:#0b1f3a;color:#fff}.split-layout{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:85px}.body-copy{color:#536781;font-size:1.08rem}.body-copy p:first-child{margin-top:0}.body-copy-light{color:#c7d5e9}.section-heading{max-width:770px;margin-bottom:44px}.section-heading>p:last-child,.sticky-heading>p{color:#536781;font-size:1.08rem}.section-heading-light{color:#fff}.fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.fit-card{padding:32px;border:1px solid #d7dfeb;border-radius:18px;background:#fff}.fit-card-positive{border-top:5px solid #155eef}.fit-card ul,.check-list{margin:0;padding-left:20px;color:#536781}.fit-card li,.check-list li{margin:10px 0}.center-action{margin-top:28px;text-align:center}.included-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:80px}.sticky-heading{position:sticky;top:116px;align-self:start}.included-list{border-top:1px solid #d7dfeb}.included-list div{display:grid;grid-template-columns:52px 1fr;gap:12px;padding:18px 0;border-bottom:1px solid #d7dfeb}.included-list span{color:#155eef;font-weight:900}.included-list p{margin:0;color:#405573}.scope-note,.decision-note{margin-top:32px;padding:20px 24px;border-left:4px solid #155eef;background:#eef4ff;color:#405573}.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.process-grid article{padding:28px;border:1px solid rgba(255,255,255,.14);border-radius:16px;background:rgba(255,255,255,.055)}.process-grid article>span{display:block;margin-bottom:24px;color:#8bb4ff;font-weight:900}.process-grid p{margin-bottom:0;color:#c7d5e9}.check-list{margin:24px 0}.deliverables-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}.deliverables-card{padding:38px;border-radius:20px;background:#fff;box-shadow:0 18px 55px rgba(13,25,48,.08)}.deliverables-card p:not(.eyebrow){color:#536781}.decision-grid{display:grid;gap:14px}.decision{padding:26px;border:1px solid #d7dfeb;border-radius:16px;background:#fff}.decision strong{display:block;margin-bottom:8px;font-size:1.12rem}.decision p{margin:0;color:#536781}.decision.build{border-left:6px solid #18a36a}.decision.change{border-left:6px solid #e4a11b}.decision.kill{border-left:6px solid #d04b55}.pricing-layout{display:grid;grid-template-columns:1fr .8fr;gap:80px;align-items:center}.pricing-copy>p:last-child{color:#536781;font-size:1.1rem}.price-card{padding:38px;border-radius:22px;background:#0b1f3a;color:#fff;box-shadow:0 28px 75px rgba(13,25,48,.15)}.price-label{color:#9fb0ca;font-size:.82rem;font-weight:850;letter-spacing:.08em;text-transform:uppercase}.price{margin:8px 0 12px;font-size:clamp(3.8rem,7vw,5.4rem);font-weight:950;line-height:1}.price-card>p:not(.price){margin-bottom:26px;color:#c7d5e9}.faq-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:72px}.faq-list{border-top:1px solid #d2dbe8}.faq-list details{border-bottom:1px solid #d2dbe8}.faq-list summary{padding:22px 36px 22px 0;font-weight:850;cursor:pointer}.faq-list p{margin:0;padding:0 36px 22px 0;color:#536781}.contact-section{background:#155eef}.contact-card{padding:52px;border-radius:24px;background:#0b1f3a;color:#fff}.contact-form-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:58px}.contact-copy p:last-child{color:#c7d5e9;font-size:1.07rem}.idea-form{display:grid;grid-template-columns:1fr 1fr;gap:19px;padding:30px;border-radius:18px;background:rgba(255,255,255,.075)}.form-field{display:flex;flex-direction:column;gap:7px}.form-field.full,.form-submit,.form-status,.privacy-note{grid-column:1/-1}.form-field label{font-size:.9rem;font-weight:800}.form-field input,.form-field textarea{width:100%;border:1px solid rgba(255,255,255,.26);border-radius:9px;background:#fff;color:#0d1930;font:inherit;padding:12px 13px}.form-field textarea{resize:vertical}.form-field input:focus,.form-field textarea:focus{outline:3px solid #79a2ff;outline-offset:2px}.form-submit:disabled{cursor:wait;opacity:.72}.form-status:not(:empty){margin:0;color:#fff;font-weight:750}.privacy-note{margin:0;color:#b9c8de;font-size:.82rem}.privacy-note a{color:#fff;font-weight:750}.site-footer{padding:34px 0;background:#07152a;color:#aabbd3}.footer-wrap,.footer-links{display:flex;align-items:center;gap:22px}.footer-wrap{justify-content:space-between}.footer-links a{color:#fff;font-weight:750}.footer-links{font-size:.9rem}
+  .eyebrow{font-size:1rem;line-height:1.3;letter-spacing:.1em}
+  @media(max-width:980px){.main-nav{display:none}.nav-wrap{justify-content:space-between}.hero-grid,.split-layout,.included-layout,.deliverables-layout,.pricing-layout,.faq-layout,.contact-form-layout{grid-template-columns:1fr}.hero-grid,.split-layout,.included-layout,.pricing-layout,.faq-layout,.contact-form-layout{gap:42px}.sticky-heading{position:static}.process-grid{grid-template-columns:1fr 1fr}.hero{padding-top:70px}}
+  @media(max-width:640px){.container{width:min(100% - 28px,1160px)}.site-header .button-small{display:none}.nav-wrap{min-height:68px}.brand{font-size:.94rem}.hero{padding:54px 0 62px}.hero-grid{gap:34px}h1{font-size:clamp(2.65rem,13vw,4rem)}h2{font-size:clamp(2rem,10vw,3rem)}.hero-lead{font-size:1.08rem}.hero-actions{align-items:flex-start;flex-direction:column;gap:17px}.project-card dl div{grid-template-columns:1fr}.section,.section-compact{padding:66px 0}.fit-grid,.process-grid{grid-template-columns:1fr}.fit-card,.deliverables-card,.price-card{padding:26px}.contact-card{padding:30px 20px}.idea-form{grid-template-columns:1fr;padding:22px}.form-field{grid-column:1/-1}.footer-wrap,.footer-links{align-items:flex-start;flex-direction:column}.footer-wrap{gap:16px}}
+</style>

@@ -2,7 +2,7 @@
 
 > Customer validation through 20 interviews with realistic potential customers before a major development investment.
 
-Test Before You Build helps founders, companies, and research teams examine whether a product, service, software concept, or research-based innovation addresses a commercially meaningful customer problem. The fixed-price Idea Validation Sprint costs €2,900 and ends with a BUILD, CHANGE, or KILL recommendation.
+Test Before You Build helps founders, companies, and research teams examine whether a product, service, software concept, or research-based innovation addresses a commercially meaningful customer problem. The fixed-price Idea Validation Sprint costs €2,900 + VAT and ends with a BUILD, CHANGE, or KILL recommendation.
 
 Service provider: Kari Jääskeläinen, entrepreneur, business leader, and customer validation consultant.
 
@@ -10,6 +10,8 @@ Service provider: Kari Jääskeläinen, entrepreneur, business leader, and custo
 
 - [Homepage](https://testbeforeyoubuild.com/): Service, process, pricing, suitability, frequently asked questions, and contact form.
 - [Homepage in Markdown](https://testbeforeyoubuild.com/index.md): Text equivalent of the homepage.
+- [Market validation services and pricing](https://testbeforeyoubuild.com/market-validation-services-pricing/): Full scope, process, deliverables, timeline, price, decision framework, and enquiry form.
+- [Market validation services and pricing in Markdown](https://testbeforeyoubuild.com/market-validation-services-pricing.md): Text equivalent of the service page.
 - [Privacy notice](https://testbeforeyoubuild.com/privacy/): How contact-form information is handled.
 
 ## More detail

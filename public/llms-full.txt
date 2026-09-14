@@ -8,11 +8,13 @@ Test Before You Build is a customer validation service for B2B and B2C products,
 
 ## Idea Validation Sprint
 
-The service provider defines the target customer and the commercial assumptions to test, identifies 20 realistic potential customers, interviews them directly, analyses the evidence, and produces a BUILD, CHANGE, or KILL recommendation.
+The service provider defines the target customer and the commercial assumptions to test, identifies approximately 30–40 suitable prospects for client approval, recruits 20 participants, interviews them directly, analyses the evidence, and produces a BUILD, CHANGE, or KILL recommendation.
 
 The interviews explore problem severity, current alternatives, buying behaviour, willingness to change, objections, and willingness-to-pay signals.
 
-The fixed project price is €2,900.
+The fixed project price is €2,900 + VAT. A typical project takes approximately 2–4 weeks. The schedule depends primarily on the accessibility and specialisation of the target customer group and is confirmed before the project begins.
+
+The client receives transcripts of the 20 completed interviews, evidence analysis, a written report, recommended changes, and the final recommendation. Participants may be realistic potential buyers, users, or both; the service does not imply that every participant is a confirmed buyer.
 
 Twenty qualitative interviews can reveal repeated themes and important disagreements. They do not prove market demand statistically, and the final recommendation explains the limits of the evidence.
 
@@ -24,7 +26,7 @@ It is not a substitute for statistically representative market research and is n
 
 ## Service provider
 
-Kari Jääskeläinen is an entrepreneur, business leader, and consultant with a Master’s degree in Entrepreneurship and a Doctor of Arts degree in Digital Media. He has worked on around 200 projects and has made around 2,000 sales calls per year.
+Kari Jääskeläinen is an entrepreneur, business leader, and consultant with a Master’s degree in Entrepreneurship and a Doctor of Arts degree in Digital Media. He has worked on around 200 commercialization and consulting projects and has made approximately 2,000 sales calls a year.
 
 ## Contact
 
@@ -33,3 +35,7 @@ Ideas can be submitted through the contact form at https://testbeforeyoubuild.co
 Privacy notice: https://testbeforeyoubuild.com/privacy/
 
 Markdown version of the homepage: https://testbeforeyoubuild.com/index.md
+
+Detailed market validation services and pricing: https://testbeforeyoubuild.com/market-validation-services-pricing/
+
+Markdown version of the service page: https://testbeforeyoubuild.com/market-validation-services-pricing.md
