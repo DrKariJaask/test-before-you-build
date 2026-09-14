@@ -110,8 +110,9 @@ const schema = {
     {
       "@type": "Person",
       "@id": `${siteUrl}#kari-jaaskelainen`,
-      name: "Kari Jääskeläinen",
-      url: `${canonical}#about-kari`,
+      name: "Dr. Kari Jääskeläinen",
+      url: `${siteUrl}about-kari-jaaskelainen/`,
+      image: `${siteUrl}kari-jaaskelainen.jpg`,
       worksFor: { "@id": `${siteUrl}#organization` },
       jobTitle: "Customer validation consultant",
     },
@@ -186,6 +187,7 @@ const schema = {
           <a href="#how-it-works">How it works</a>
           <a href="#deliverables">What you receive</a>
           <a href="#pricing">Pricing</a>
+          <a href="/about-kari-jaaskelainen/">About Kari</a>
           <a href="#faq">FAQ</a>
         </nav>
         <a class="button button-small" href="#contact">Submit your idea</a>
@@ -412,26 +414,23 @@ const schema = {
 
       <section id="about-kari" class="section section-dark">
         <div class="container split-layout">
-          <div>
+          <div class="about-intro">
             <p class="eyebrow eyebrow-light">Your independent validation partner</p>
             <h2>The interviews are led by an experienced commercial operator.</h2>
+            <img src="/kari-jaaskelainen.jpg" width="1200" height="1200" loading="lazy" alt="Dr. Kari Jääskeläinen" />
           </div>
           <div class="body-copy body-copy-light">
             <p>
               Dr. Kari Jääskeläinen is an entrepreneur, business leader and consultant
-              with a Master’s degree in Entrepreneurship and a Doctor of Arts
-              degree in Digital Media.
+              whose work combines market validation, technology commercialization
+              and practical business development.
             </p>
             <p>
-              He has worked on around 200 commercialization and consulting projects
-              and has made approximately 2,000 sales calls a year.
+              He has completed around 200 commercialization and business development
+              projects and co-founded ventures in MedTech, private higher education,
+              wireless technology and artificial intelligence.
             </p>
-            <p>
-              This combination of commercial and research experience helps him
-              conduct independent customer interviews, recognise buying objections
-              and translate qualitative evidence into a practical decision.
-            </p>
-            <a class="button button-light" href="#contact">Ask whether your idea is suitable</a>
+            <a class="button button-light" href="/about-kari-jaaskelainen/">Read about Kari’s experience</a>
           </div>
         </div>
       </section>
@@ -491,7 +490,7 @@ const schema = {
     <footer class="site-footer">
       <div class="container footer-wrap">
         <span>© 2026 Test Before You Build</span>
-        <div class="footer-links"><a href="/">Homepage</a><a href="/privacy/">Privacy</a><span>Evidence before investment.</span></div>
+        <div class="footer-links"><a href="/">Homepage</a><a href="/about-kari-jaaskelainen/">About Kari</a><a href="/privacy/">Privacy</a><span>Evidence before investment.</span></div>
       </div>
     </footer>
 
@@ -527,6 +526,7 @@ const schema = {
   :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#0d1930;background:#fff;line-height:1.6;font-synthesis:none;text-rendering:optimizeLegibility}
   *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}.container{width:min(1160px,calc(100% - 40px));margin:0 auto}.site-header{position:sticky;top:0;z-index:20;border-bottom:1px solid #dce4ef;background:rgba(255,255,255,.94);backdrop-filter:blur(14px)}.nav-wrap{min-height:76px;display:flex;align-items:center;gap:28px}.brand{display:inline-flex;align-items:center;gap:11px;font-weight:900;text-decoration:none;white-space:nowrap}.brand-mark{width:18px;height:18px;border-radius:5px;background:#155eef;box-shadow:8px 8px 0 #79a2ff}.main-nav{display:flex;align-items:center;gap:25px;margin-left:auto}.main-nav a{color:#405573;font-size:.94rem;font-weight:750;text-decoration:none}.button{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border:0;border-radius:10px;background:#155eef;color:#fff;font:inherit;font-weight:850;text-decoration:none;cursor:pointer;transition:transform .16s ease,background .16s ease}.button:hover{background:#0f4dcc;transform:translateY(-1px)}.button-small{padding:11px 17px;font-size:.92rem}.button-light{background:#fff;color:#102a4f}.button-light:hover{background:#eaf1ff}.button-full{width:100%}.hero{padding:92px 0 86px;background:linear-gradient(140deg,#f5f8ff 0%,#fff 62%)}.hero-grid{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(360px,.82fr);align-items:center;gap:70px}.eyebrow{margin:0 0 14px;color:#155eef;font-size:.79rem;font-weight:900;letter-spacing:.11em;text-transform:uppercase}.eyebrow-light{color:#8bb4ff}h1,h2,h3{margin-top:0;letter-spacing:-.015em}h1{max-width:790px;margin-bottom:25px;font-size:clamp(3rem,6vw,5.25rem);line-height:1.05}h1 span{display:block;color:#155eef}h2{margin-bottom:22px;font-size:clamp(2.15rem,4vw,3.55rem);line-height:1.12}h3{font-size:1.25rem;line-height:1.25}.hero-lead{max-width:720px;margin:0 0 30px;color:#405573;font-size:1.24rem;line-height:1.7}.hero-actions{display:flex;align-items:center;gap:24px}.text-link{color:#155eef;font-weight:850;text-underline-offset:4px}.project-card{overflow:hidden;border:1px solid #cfd9e8;border-radius:22px;background:#0b1f3a;color:#fff;box-shadow:0 30px 80px rgba(13,25,48,.16)}.project-card-top{display:flex;justify-content:space-between;gap:20px;padding:23px 25px;border-bottom:1px solid rgba(255,255,255,.15);color:#c9d8ee;font-size:.86rem;font-weight:750}.project-card-top strong{color:#fff;font-size:1.1rem}.project-card dl{margin:0;padding:9px 25px 21px}.project-card dl div{display:grid;grid-template-columns:1fr 1.35fr;gap:20px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.12)}.project-card dl div:last-child{border:0}.project-card dt{color:#9fb0ca;font-size:.84rem}.project-card dd{margin:0;font-weight:800}.section{padding:96px 0}.section-compact{padding:76px 0}.section-soft{background:#f4f7fb}.section-dark{background:#0b1f3a;color:#fff}.split-layout{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:85px}.body-copy{color:#536781;font-size:1.08rem}.body-copy p:first-child{margin-top:0}.body-copy-light{color:#c7d5e9}.section-heading{max-width:770px;margin-bottom:44px}.section-heading>p:last-child,.sticky-heading>p{color:#536781;font-size:1.08rem}.section-heading-light{color:#fff}.fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.fit-card{padding:32px;border:1px solid #d7dfeb;border-radius:18px;background:#fff}.fit-card-positive{border-top:5px solid #155eef}.fit-card ul,.check-list{margin:0;padding-left:20px;color:#536781}.fit-card li,.check-list li{margin:10px 0}.center-action{margin-top:28px;text-align:center}.included-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:80px}.sticky-heading{position:sticky;top:116px;align-self:start}.included-list{border-top:1px solid #d7dfeb}.included-list div{display:grid;grid-template-columns:52px 1fr;gap:12px;padding:18px 0;border-bottom:1px solid #d7dfeb}.included-list span{color:#155eef;font-weight:900}.included-list p{margin:0;color:#405573}.scope-note,.decision-note{margin-top:32px;padding:20px 24px;border-left:4px solid #155eef;background:#eef4ff;color:#405573}.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.process-grid article{padding:28px;border:1px solid rgba(255,255,255,.14);border-radius:16px;background:rgba(255,255,255,.055)}.process-grid article>span{display:block;margin-bottom:24px;color:#8bb4ff;font-weight:900}.process-grid p{margin-bottom:0;color:#c7d5e9}.check-list{margin:24px 0}.deliverables-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}.deliverables-card{padding:38px;border-radius:20px;background:#fff;box-shadow:0 18px 55px rgba(13,25,48,.08)}.deliverables-card p:not(.eyebrow){color:#536781}.decision-grid{display:grid;gap:14px}.decision{padding:26px;border:1px solid #d7dfeb;border-radius:16px;background:#fff}.decision strong{display:block;margin-bottom:8px;font-size:1.12rem}.decision p{margin:0;color:#536781}.decision.build{border-left:6px solid #18a36a}.decision.change{border-left:6px solid #e4a11b}.decision.kill{border-left:6px solid #d04b55}.pricing-layout{display:grid;grid-template-columns:1fr .8fr;gap:80px;align-items:center}.pricing-copy>p:last-child{color:#536781;font-size:1.1rem}.price-card{padding:38px;border-radius:22px;background:#0b1f3a;color:#fff;box-shadow:0 28px 75px rgba(13,25,48,.15)}.price-label{color:#9fb0ca;font-size:.82rem;font-weight:850;letter-spacing:.08em;text-transform:uppercase}.price{margin:8px 0 12px;font-size:clamp(3.8rem,7vw,5.4rem);font-weight:950;line-height:1}.price-card>p:not(.price){margin-bottom:26px;color:#c7d5e9}.faq-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:72px}.faq-list{border-top:1px solid #d2dbe8}.faq-list details{border-bottom:1px solid #d2dbe8}.faq-list summary{padding:22px 36px 22px 0;font-weight:850;cursor:pointer}.faq-list p{margin:0;padding:0 36px 22px 0;color:#536781}.contact-section{background:#155eef}.contact-card{padding:52px;border-radius:24px;background:#0b1f3a;color:#fff}.contact-form-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:58px}.contact-copy p:last-child{color:#c7d5e9;font-size:1.07rem}.idea-form{display:grid;grid-template-columns:1fr 1fr;gap:19px;padding:30px;border-radius:18px;background:rgba(255,255,255,.075)}.form-field{display:flex;flex-direction:column;gap:7px}.form-field.full,.form-submit,.form-status,.privacy-note{grid-column:1/-1}.form-field label{font-size:.9rem;font-weight:800}.form-field input,.form-field textarea{width:100%;border:1px solid rgba(255,255,255,.26);border-radius:9px;background:#fff;color:#0d1930;font:inherit;padding:12px 13px}.form-field textarea{resize:vertical}.form-field input:focus,.form-field textarea:focus{outline:3px solid #79a2ff;outline-offset:2px}.form-submit:disabled{cursor:wait;opacity:.72}.form-status:not(:empty){margin:0;color:#fff;font-weight:750}.privacy-note{margin:0;color:#b9c8de;font-size:.82rem}.privacy-note a{color:#fff;font-weight:750}.site-footer{padding:34px 0;background:#07152a;color:#aabbd3}.footer-wrap,.footer-links{display:flex;align-items:center;gap:22px}.footer-wrap{justify-content:space-between}.footer-links a{color:#fff;font-weight:750}.footer-links{font-size:.9rem}
   .eyebrow{font-size:1rem;line-height:1.3;letter-spacing:.1em}
+  .about-intro img{display:block;width:min(320px,100%);height:auto;margin-top:30px;border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.22)}
   @media(max-width:980px){.main-nav{display:none}.nav-wrap{justify-content:space-between}.hero-grid,.split-layout,.included-layout,.deliverables-layout,.pricing-layout,.faq-layout,.contact-form-layout{grid-template-columns:1fr}.hero-grid,.split-layout,.included-layout,.pricing-layout,.faq-layout,.contact-form-layout{gap:42px}.sticky-heading{position:static}.process-grid{grid-template-columns:1fr 1fr}.hero{padding-top:70px}}
   @media(max-width:640px){.container{width:min(100% - 28px,1160px)}.site-header .button-small{display:none}.nav-wrap{min-height:68px}.brand{font-size:.94rem}.hero{padding:54px 0 62px}.hero-grid{gap:34px}h1{font-size:clamp(2.65rem,13vw,4rem)}h2{font-size:clamp(2rem,10vw,3rem)}.hero-lead{font-size:1.08rem}.hero-actions{align-items:flex-start;flex-direction:column;gap:17px}.project-card dl div{grid-template-columns:1fr}.section,.section-compact{padding:66px 0}.fit-grid,.process-grid{grid-template-columns:1fr}.fit-card,.deliverables-card,.price-card{padding:26px}.contact-card{padding:30px 20px}.idea-form{grid-template-columns:1fr;padding:22px}.form-field{grid-column:1/-1}.footer-wrap,.footer-links{align-items:flex-start;flex-direction:column}.footer-wrap{gap:16px}}
 </style>

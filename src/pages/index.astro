@@ -25,8 +25,9 @@ const schema = {
     {
       "@type": "Person",
       "@id": `${canonical}#kari-jaaskelainen`,
-      name: "Kari Jääskeläinen",
-      url: `${canonical}#about-kari`,
+      name: "Dr. Kari Jääskeläinen",
+      url: `${canonical}about-kari-jaaskelainen/`,
+      image: `${canonical}kari-jaaskelainen.jpg`,
       worksFor: { "@id": `${canonical}#organization` },
       jobTitle: "Customer validation consultant",
     },
@@ -126,6 +127,7 @@ const schema = {
           <a href="#how-it-works">How It Works</a>
           <a href="#why">Why It Works</a>
           <a href="/market-validation-services-pricing/">Pricing</a>
+          <a href="/about-kari-jaaskelainen/">About Kari</a>
           <a href="#faq">FAQ</a>
         </nav>
 
@@ -434,24 +436,24 @@ const schema = {
 
       <section id="about-kari" class="section section-dark">
         <div class="container split-layout about-layout">
-          <div>
+          <div class="about-intro">
             <p class="eyebrow eyebrow-light">Your validation partner</p>
             <h2>The interviews are led by an experienced commercial operator.</h2>
+            <img src="/kari-jaaskelainen.jpg" width="1200" height="1200" loading="lazy" alt="Dr. Kari Jääskeläinen" />
           </div>
           <div class="body-copy body-copy-light">
             <p>
-              Kari Jääskeläinen is an entrepreneur, business leader, and consultant
-              with a Master’s degree in Entrepreneurship and a Doctor of Arts degree
-              in Digital Media.
+              Dr. Kari Jääskeläinen is an entrepreneur, business leader and consultant
+              whose work combines market validation, technology commercialization
+              and practical business development.
             </p>
             <p>
-              He has worked on around 200 commercialization and consulting projects
-              and has made approximately 2,000 sales calls a year. That practical
-              experience helps turn customer language,
-              objections, and buying behaviour into a decision you can act on.
+              He has completed around 200 commercialization and business development
+              projects and co-founded ventures in MedTech, private higher education,
+              wireless technology and artificial intelligence.
             </p>
-            <a class="button button-light" href="#contact">
-              Ask which assumptions to test
+            <a class="button button-light" href="/about-kari-jaaskelainen/">
+              Read about Kari’s experience
             </a>
           </div>
         </div>
@@ -609,6 +611,7 @@ const schema = {
       <div class="container footer-wrap">
         <span>© 2026 Test Before You Build</span>
         <div class="footer-links">
+          <a href="/about-kari-jaaskelainen/">About Kari</a>
           <a href="/privacy/">Privacy</a>
           <span>Evidence before investment.</span>
         </div>
@@ -1010,6 +1013,15 @@ const schema = {
 
       .about-layout .button {
         margin-top: 8px;
+      }
+
+      .about-intro img {
+        display: block;
+        width: min(320px, 100%);
+        height: auto;
+        margin-top: 30px;
+        border-radius: 22px;
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.22);
       }
 
       .split-layout {

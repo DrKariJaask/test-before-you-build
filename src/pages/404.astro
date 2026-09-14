@@ -16,7 +16,7 @@ const title = "Page Not Found | Test Before You Build";
       <p class="eyebrow">404 · Page not found</p>
       <h1>This page does not exist.</h1>
       <p>The address may be incorrect or the page may have moved.</p>
-      <a href="/">Return to Test Before You Build</a>
+      <div class="actions"><a href="/">Return to Test Before You Build</a><a href="/about-kari-jaaskelainen/">About Kari</a></div>
     </main>
   </body>
 </html>
@@ -30,4 +30,5 @@ const title = "Page Not Found | Test Before You Build";
   h1 { margin: 14px 0; font-size: clamp(3rem, 9vw, 6rem); line-height: 1.05; letter-spacing: -.03em; }
   p { color: #cad7e8; font-size: 1.15rem; }
   a { display: inline-flex; margin-top: 20px; min-height: 48px; align-items: center; padding: 0 22px; border-radius: 12px; background: #fff; color: #0b1f3a; font-weight: 800; text-decoration: none; }
+  .actions { display: flex; gap: 14px; flex-wrap: wrap; }
 </style>

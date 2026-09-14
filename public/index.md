@@ -39,9 +39,13 @@ The fixed project price is **€2,900 + VAT**. It includes target customer defin
 
 [View full market validation service details and pricing](https://testbeforeyoubuild.com/market-validation-services-pricing/).
 
-## About Kari Jääskeläinen
+## About Dr. Kari Jääskeläinen
 
-Kari Jääskeläinen is an entrepreneur, business leader, and consultant with a Master’s degree in Entrepreneurship and a Doctor of Arts degree in Digital Media. He has worked on around 200 commercialization and consulting projects and has made approximately 2,000 sales calls a year.
+Dr. Kari Jääskeläinen is an entrepreneur, business leader and consultant whose work combines market validation, technology commercialization and practical business development.
+
+He has completed around 200 commercialization and business development projects and co-founded ventures in MedTech, private higher education, wireless technology and artificial intelligence.
+
+[Read about Kari’s experience](https://testbeforeyoubuild.com/about-kari-jaaskelainen/).
 
 ## Frequently asked questions
 

@@ -21,7 +21,7 @@ const description = "Your idea has been sent to Test Before You Build.";
         Your message has been sent. Kari will review it personally and get back
         to you about whether customer validation could help with your decision.
       </p>
-      <a class="button" href="/">Return to the homepage</a>
+      <div class="actions"><a class="button" href="/">Return to the homepage</a><a href="/about-kari-jaaskelainen/">About Kari</a></div>
     </main>
   </body>
 </html>
@@ -42,4 +42,6 @@ const description = "Your idea has been sent to Test Before You Build.";
   .lead { margin: 0 0 32px; color: #536781; font-size: 1.15rem; }
   .button { display: inline-flex; padding: 13px 20px; border-radius: 10px; background: #155eef; color: #fff; font-weight: 800; text-decoration: none; }
   .button:hover { background: #0f4dcc; }
+  .actions { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+  .actions > a:not(.button) { color: #155eef; font-weight: 800; }
 </style>
