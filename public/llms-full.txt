@@ -16,7 +16,19 @@ The fixed project price is €2,900 + VAT. A typical project takes approximately
 
 The client receives transcripts of the 20 completed interviews, evidence analysis, a written report, recommended changes, and the final recommendation. Participants may be realistic potential buyers, users, or both; the service does not imply that every participant is a confirmed buyer.
 
-Twenty qualitative interviews can reveal repeated themes and important disagreements. They do not prove market demand statistically, and the final recommendation explains the limits of the evidence.
+Twenty qualitative interviews can reveal repeated demand signals, barriers and important disagreements within an agreed target group. The standard service is a focused scope, not a universal research rule or a limit. Projects covering several customer segments, buyer roles, countries, use cases or broader objectives can be scoped and priced separately.
+
+Customer interviews assess the strength, nature and conditions of demand before development. When relevant signals recur across a carefully selected group, they provide meaningful evidence for deciding whether to BUILD, CHANGE or KILL an idea. No research method guarantees future sales, and the final recommendation explains the limits of the evidence.
+
+## Customer interview sample size guide
+
+There is no universal number of customer interviews that is correct for every market-validation project. Sufficiency depends on participant relevance, target-group focus, the number of distinct segments, the information added by new interviews and the consequences of the decision.
+
+The standard 20-interview service may suit one focused commercial question and target group. Larger projects may be appropriate when users, buyers or other decision-makers require separate samples, several markets must be compared, or the initial evidence reveals important variation.
+
+Full guide: https://testbeforeyoubuild.com/how-many-customer-interviews/
+
+Markdown: https://testbeforeyoubuild.com/how-many-customer-interviews/index.md
 
 ## Suitability
 
@@ -34,7 +46,7 @@ Full profile: https://testbeforeyoubuild.com/about-kari-jaaskelainen/
 
 ## Contact
 
-Ideas can be submitted through the contact form at https://testbeforeyoubuild.com/#contact. The form asks for a name, email address, and description of the idea. Information about the intended customer and pain point is optional.
+Ideas can be submitted through the contact form at https://testbeforeyoubuild.com/#contact. The form requires a name, email address, description of the idea, intended buyer or user, and the problem the idea would solve.
 
 Privacy notice: https://testbeforeyoubuild.com/privacy/
 

@@ -6,7 +6,7 @@ He has completed around 200 commercialization and business development projects 
 
 ## Background
 
-Kari’s work has covered market assessments, commercialization, business planning, sales development, internationalization, product development and innovation funding. The assignments span software, mobile technology, digital media, education, industrial technology, design, consumer products, health and wellbeing, and the creative industries.
+Dr. Kari’s work has covered market assessments, commercialization, business planning, sales development, internationalization, product development and innovation funding. The assignments span software, mobile technology, digital media, education, industrial technology, design, consumer products, health and wellbeing, and the creative industries.
 
 He holds a Master’s degree in Entrepreneurship and a Doctor of Arts degree in Digital Media. He has made approximately 2,000 sales calls a year.
 
@@ -23,11 +23,11 @@ Selected technology assignments include market assessments for software testing,
 
 ## Entrepreneurial experience
 
-Kari co-founded a MedTech company developing a new HIV-testing technology. He also founded and led Helsinki School of Business, a private business school that he later sold.
+Dr. Kari co-founded a MedTech company developing a new HIV-testing technology. He also founded and led Helsinki School of Business, a private business school that he later sold.
 
 ## Market validation
 
-Kari identifies realistic prospects, conducts customer interviews personally and translates qualitative evidence into a practical BUILD, CHANGE or KILL recommendation.
+Dr. Kari identifies realistic prospects, conducts customer interviews personally and translates qualitative evidence into a practical BUILD, CHANGE or KILL recommendation.
 
 [Market validation services and pricing](https://testbeforeyoubuild.com/market-validation-services-pricing/)
 

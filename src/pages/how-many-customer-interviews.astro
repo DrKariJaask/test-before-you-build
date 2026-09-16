@@ -1,0 +1,186 @@
+---
+const title = "How Many Customer Interviews Are Enough?";
+const description =
+  "Learn how many customer interviews you need for market validation, what determines an adequate sample and when the evidence is sufficient to decide.";
+const canonical = "https://testbeforeyoubuild.com/how-many-customer-interviews/";
+const siteUrl = "https://testbeforeyoubuild.com/";
+const socialImage = `${siteUrl}og.jpg`;
+const published = "2026-09-16";
+const faqs = [
+  { question: "Is five customer interviews enough?", answer: "Five relevant interviews can reveal important problems, improve an interview guide and challenge early assumptions. Whether they are enough depends on the target group, the decision and what remains unresolved." },
+  { question: "Are ten customer interviews enough?", answer: "Ten carefully selected participants can provide strong initial evidence for a narrowly defined group. More may be needed when the market contains distinct segments, responses remain varied or the decision is difficult to reverse." },
+  { question: "Is the service limited to 20 interviews?", answer: "No. The standard €2,900 plus VAT service includes 20 interviews. Projects involving multiple customer segments, buyer roles, countries, use cases or broader objectives can be scoped and priced separately." },
+  { question: "What does saturation mean in customer interviews?", answer: "Saturation generally describes a point at which further interviews add little new information to the analysis. Repetition alone does not guarantee future purchases, and a poorly selected sample can reach apparent repetition without representing the people relevant to the decision." },
+  { question: "What can customer interviews reveal about market demand?", answer: "Customer interviews reveal whether realistic potential buyers or users experience the problem, how important it is, what they do about it today, why they might change and what could prevent adoption. Recurring signals provide meaningful evidence for a BUILD, CHANGE or KILL decision." },
+  { question: "Should buyers and users be interviewed separately?", answer: "Yes, when their needs, incentives or decision authority differ. A user may experience the problem without controlling the budget, while a buyer may approve a purchase without using the product." },
+];
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Article", "@id": `${canonical}#article`, headline: "How many customer interviews are enough for market validation?", description, datePublished: published, dateModified: published, mainEntityOfPage: { "@id": `${canonical}#webpage` }, author: { "@id": `${siteUrl}#kari-jaaskelainen` }, publisher: { "@id": `${siteUrl}#organization` }, image: socialImage },
+    { "@type": "WebPage", "@id": `${canonical}#webpage`, url: canonical, name: title, description, isPartOf: { "@id": `${siteUrl}#website` }, breadcrumb: { "@id": `${canonical}#breadcrumb` } },
+    { "@type": "BreadcrumbList", "@id": `${canonical}#breadcrumb`, itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Test Before You Build", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "How Many Customer Interviews Are Enough?", item: canonical },
+    ] },
+    { "@type": "Organization", "@id": `${siteUrl}#organization`, name: "Test Before You Build", url: siteUrl, founder: { "@id": `${siteUrl}#kari-jaaskelainen` } },
+    { "@type": "Person", "@id": `${siteUrl}#kari-jaaskelainen`, name: "Dr. Kari Jääskeläinen", url: `${siteUrl}about-kari-jaaskelainen/`, image: `${siteUrl}kari-jaaskelainen.jpg`, worksFor: { "@id": `${siteUrl}#organization` }, jobTitle: "Customer validation consultant" },
+    { "@type": "FAQPage", "@id": `${canonical}#faq-schema`, mainEntity: faqs.map(({ question, answer }) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })) },
+  ],
+};
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b1f3a" />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="text/markdown" href={`${canonical}index.md`} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:site_name" content="Test Before You Build" />
+    <meta property="article:published_time" content={published} />
+    <meta property="article:modified_time" content={published} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <title>{title}</title>
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/"><span class="brand-mark"></span><span>Test Before You Build</span></a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="/">Homepage</a>
+          <a href="/market-validation-services-pricing/">Services and pricing</a>
+          <a href="/about-kari-jaaskelainen/">About Dr. Kari</a>
+        </nav>
+        <a class="button button-small" href="/#contact">Submit your idea</a>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <header class="article-hero">
+          <div class="container article-head">
+            <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Test Before You Build</a><span>›</span><span>Customer interview sample size</span></nav>
+            <p class="eyebrow">Customer discovery guide</p>
+            <h1>How many customer interviews are enough for market validation?</h1>
+            <p class="standfirst">There is no universal number of customer interviews that proves market demand. The evidence is sufficient when the right people have been interviewed, important customer groups are represented, new interviews add little decision-relevant information and the findings are strong enough for the decision you need to make.</p>
+            <div class="byline"><img src="/kari-jaaskelainen.jpg" width="72" height="72" alt="Dr. Kari Jääskeläinen" /><div><strong>By <a href="/about-kari-jaaskelainen/">Dr. Kari Jääskeläinen</a></strong><span>Market validation, commercialisation and customer discovery</span><time datetime={published}>Published and updated 16 September 2026</time></div></div>
+            <aside class="scope-summary"><strong>Standard and extended projects</strong><p>Test Before You Build’s standard €2,900 + VAT service includes 20 interviews. This is a defined scope for a focused project—not a universal rule or a limit. Broader questions, multiple segments or several markets may require a larger, separately scoped study.</p></aside>
+          </div>
+        </header>
+
+        <div class="container article-layout">
+          <aside class="toc" aria-label="On this page"><strong>On this page</strong><a href="#short-answer">The short answer</a><a href="#five-factors">Five factors</a><a href="#research">What research says</a><a href="#scope">Scoping a project</a><a href="#stopping-rule">A stopping rule</a><a href="#warning-signs">Warning signs</a><a href="#faq">FAQ</a></aside>
+          <div class="article-body">
+            <section id="short-answer">
+              <h2>The short answer: there is no universal interview number</h2>
+              <p>Five interviews may uncover important problems. Ten may reveal recurring patterns. Twenty may expose differences that were invisible in the first ten. None of these numbers automatically settles the commercial question.</p>
+              <p>The appropriate number depends on who you interview, how narrowly the target group is defined, how many distinct groups must be understood, what assumption you are testing, how much new information each interview adds and how difficult the decision would be to reverse.</p>
+              <h3>Interviews provide depth, not a statistical forecast</h3>
+              <p>A qualitative interview sample is normally selected because participants can provide relevant information—not because every member of the wider market has an equal probability of being selected. Twenty interviews with the wrong people remain twenty irrelevant interviews.</p>
+              <p>Interviews can reveal whether people experience the proposed problem, how they deal with it today, what triggers them to act, who influences and pays for a solution, and what prevents change. Their purpose is to assess the strength, nature and conditions of demand—not to forecast market-wide revenue from a small qualitative sample.</p>
+              <h3>“Enough” depends on the decision</h3>
+              <p>Five conversations may be enough to repair an early interview guide. A substantial development investment demands a higher standard: recurring patterns, relevant exceptions and an understanding of differences between the people involved in buying and using the solution.</p>
+              <blockquote>Do we have enough relevant evidence to make the next decision, and do we understand what remains uncertain?</blockquote>
+            </section>
+
+            <section id="five-factors">
+              <h2>Five factors that determine how many interviews you need</h2>
+              <h3>1. How narrowly the target group is defined</h3>
+              <p>“Small-business owners” may include materially different situations. A useful definition may specify industry, company size, geography, buying role, current solution and the event that creates a need to act. If the group is too broad, apparent contradictions may simply reflect different markets being treated as one.</p>
+              <h3>2. How many distinct segments must be understood</h3>
+              <p>A business purchase may involve users, technical evaluators, managers, budget holders and procurement teams. If three groups must be understood, 15 interviews may be three small groups of five rather than one sample of 15. Analyse them separately before drawing conclusions across them.</p>
+              <h3>3. How focused the commercial question is</h3>
+              <p>“Will people buy this?” is too broad for a reliable interview answer. More useful questions concern the importance of the problem, the current alternative, the trigger for change, the buyer, approval criteria and barriers to adoption.</p>
+              <h3>4. How much new information each interview adds</h3>
+              <p>A new interview may reinforce a pattern, reveal a meaningful exception, explain a difference, contradict an assumption or add nothing that changes the present interpretation. The relevant test is whether it changes or strengthens the decision—not whether another quotation can be collected.</p>
+              <h3>5. How consequential the decision is</h3>
+              <p>A reversible experiment requires less evidence than a large, difficult-to-reverse investment. Consider development cost, time to market, opportunity cost, regulatory commitments and the cost of changing direction later.</p>
+            </section>
+
+            <aside class="inline-cta"><p class="eyebrow">Planning customer interviews?</p><h2>Define the evidence you need before choosing the sample size.</h2><a class="button" href="/market-validation-services-pricing/">See the validation process</a></aside>
+
+            <section id="research">
+              <h2>What research says about interview sample size</h2>
+              <p>Qualitative research does not offer one universally correct sample size. One widely used concept is <strong>saturation</strong>: the point at which further data collection produces little or no new information relevant to the analysis. Researchers have defined and applied the term in different ways.</p>
+              <p>A systematic review by Monique Hennink and Bonnie Kaiser examined 23 empirical or model-based studies. In studies with relatively homogeneous populations and narrowly defined objectives, saturation was commonly reported within 9–17 interviews. More varied populations and deeper examination of meanings could require larger samples. <a href="https://pubmed.ncbi.nlm.nih.gov/34785096/">Hennink and Kaiser, <cite>Social Science &amp; Medicine</cite>, 2022</a>.</p>
+              <p>That range is not a universal market-validation rule. The reviewed studies addressed qualitative research designs, not a guarantee of future purchasing.</p>
+              <p>A complementary principle is <strong>information power</strong>. Malterud, Siersma and Guassora propose that fewer participants may be required when a sample contains highly relevant information for a focused study. Their model considers the study aim, sample specificity, use of established theory, interview quality and analysis strategy. <a href="https://pubmed.ncbi.nlm.nih.gov/26613970/">Malterud, Siersma and Guassora, <cite>Qualitative Health Research</cite>, 2016</a>.</p>
+              <p>A systematic analysis of interview-based studies also found that sample-size justifications and uses of “saturation” vary considerably. This supports explaining how sufficiency was assessed instead of citing a number without context. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6249736/">Vasileiou et al., <cite>BMC Medical Research Methodology</cite>, 2018</a>.</p>
+              <div class="evidence-note"><strong>Evidence boundary</strong><p>Academic findings can inform customer-research design. They do not turn a commercial interview project into a statistically representative forecast or guarantee future sales.</p></div>
+            </section>
+
+            <section id="scope">
+              <h2>How Test Before You Build scopes interview projects</h2>
+              <p>The appropriate scope begins with the commercial decision, not a preferred number. The standard service includes 20 interviews and provides a clear scope for target definition, prospect selection, recruitment, interviewing, transcription, analysis and a BUILD, CHANGE or KILL recommendation.</p>
+              <div class="comparison-grid">
+                <div><h3>A focused 20-interview project may suit</h3><ul><li>one clearly defined commercial question;</li><li>a reasonably focused target group;</li><li>one principal market or use case;</li><li>buyers and users that can be represented within the sample;</li><li>a defined development or investment decision.</li></ul></div>
+                <div><h3>A larger project may suit</h3><ul><li>several segments that must be assessed separately;</li><li>distinct users, buyers and decision-makers;</li><li>comparisons across countries or markets;</li><li>substantially different use cases;</li><li>important variation found in an initial phase;</li><li>a decision requiring broader evidence.</li></ul></div>
+              </div>
+              <p>In broader projects, the interview number, recruitment approach, schedule, deliverables and price are scoped separately. A project may include substantially more than 20 interviews when the research question requires them.</p>
+              <p>The principle is not that 20 is always sufficient—or that 50 or 100 is automatically better. The scope should cover the relevant groups and answer the agreed questions without collecting interviews that add little decision value.</p>
+              <p>Before outreach begins, Dr. Kari identifies suitable prospects using the agreed target definition. The client approves the target list. Depending on the project, participants may be realistic potential buyers, users or both.</p>
+              <h3>What a well-scoped interview project can provide</h3>
+              <ul><li>recurring customer problems and their consequences;</li><li>current solutions, workarounds and triggers for action;</li><li>buying criteria, approval processes and barriers to change;</li><li>differences between relevant customer groups;</li><li>assumptions that are supported, weakened or unresolved.</li></ul>
+              <p>In the standard service, the client receives the 20 interview transcripts, evidence analysis, a written report, recommended changes and a BUILD, CHANGE or KILL recommendation. Larger projects can cover additional segments, markets or questions. The recommendation is a reasoned interpretation of the evidence, not a guarantee of commercial success.</p>
+              <h3>What customer interviews can reveal about market demand</h3>
+              <p>Customer interviews reveal whether realistic potential buyers or users experience the problem, how important it is, what they do about it today, why they might change and what could prevent them from buying or adopting a new solution.</p>
+              <p>When these signals recur across a carefully selected group, they provide meaningful evidence for deciding whether to BUILD, CHANGE or KILL the idea before committing to development. No validation method can guarantee future sales, but customer interviews can substantially reduce the risk of building around assumptions that the intended market does not share.</p>
+            </section>
+
+            <section id="stopping-rule">
+              <h2>A practical stopping rule for customer interviews</h2>
+              <ol class="steps"><li><strong>Check participant relevance.</strong><span>Are they realistic potential buyers, users or agreed members of the buying process?</span></li><li><strong>Review each segment separately.</strong><span>Are the important groups sufficiently represented for the decision?</span></li><li><strong>Track new decision-relevant evidence.</strong><span>Record new themes, support, exceptions, contradictions and changes to the interpretation.</span></li><li><strong>Investigate contradictions.</strong><span>They may reveal separate markets, different urgency or a missing purchasing condition.</span></li><li><strong>Match confidence to the decision.</strong><span>Evidence sufficient for a prototype may not be sufficient for a full development programme.</span></li><li><strong>State what remains uncertain.</strong><span>A sound recommendation makes unresolved questions explicit.</span></li></ol>
+              <blockquote>Stop because additional interviews are unlikely to change the current decision—not merely because a predetermined number has been reached.</blockquote>
+            </section>
+
+            <section id="warning-signs">
+              <h2>Warning signs that you do not yet have enough evidence</h2>
+              <ul><li>Most participants are friends, existing supporters or members of your immediate network.</li><li>Participants are interested in the subject but are not realistic buyers or users.</li><li>Buyers and users have been combined despite having different interests.</li><li>An important customer segment is missing.</li><li>The solution was presented before the current problem was understood.</li><li>The questions encouraged praise or agreement.</li><li>Answers concern hypothetical future behaviour rather than actual experience.</li><li>New interviews continue to reveal major decision-relevant themes.</li><li>Contradictory evidence has been dismissed as an outlier.</li><li>Conclusions are based mainly on counting positive comments.</li></ul>
+              <p>More interviews will not repair every problem. If participant selection or interview design is weak, correct the method before increasing the number.</p>
+              <h2>How to judge whether the evidence is sufficient</h2>
+              <div class="table-wrap"><table><thead><tr><th>Situation</th><th>What it may mean</th><th>Next step</th></tr></thead><tbody><tr><td>Findings recur within one focused group</td><td>Evidence may support a limited decision about that group</td><td>Examine exceptions and define the next test</td></tr><tr><td>Important new themes keep emerging</td><td>The interpretation is not stable</td><td>Continue or narrow the target definition</td></tr><tr><td>Segments give different answers</td><td>The total should not be treated as one market</td><td>Analyse segments separately</td></tr><tr><td>Participants are positive but hypothetical</td><td>Conditions of adoption remain unclear</td><td>Investigate behaviour and concrete commitment</td></tr><tr><td>Suitable participants cannot be reached</td><td>The problem is sample quality</td><td>Correct the target and recruitment</td></tr><tr><td>Further interviews repeat known points</td><td>The evidence may be sufficient for its present purpose</td><td>Document uncertainty and proceed to the next test</td></tr></tbody></table></div>
+            </section>
+
+            <section id="faq">
+              <p class="eyebrow">Frequently asked questions</p><h2>Questions about customer interview sample size</h2>
+              <div class="faq-list">{faqs.map(({ question, answer }) => <details><summary>{question}</summary><p>{answer}</p></details>)}</div>
+            </section>
+
+            <section class="final-cta">
+              <p class="eyebrow eyebrow-light">Make the next decision with evidence</p>
+              <h2>Find the right interview scope before committing to development.</h2>
+              <p>The standard 20-interview project costs €2,900 + VAT and typically takes approximately 2–4 weeks. If the decision requires separate samples across several segments, roles or markets, a larger project can be designed and priced separately.</p>
+              <p>Submit your idea and explain what you are considering building, who would buy or use it and what problem it should solve. Dr. Kari will assess whether the standard project is suitable or whether the research should be scoped differently.</p>
+              <a class="button button-light" href="/#contact">Submit your idea</a>
+            </section>
+
+            <section class="author-card"><img src="/kari-jaaskelainen.jpg" width="160" height="160" alt="Dr. Kari Jääskeläinen" loading="lazy" /><div><p class="eyebrow">About the author</p><h2>Dr. Kari Jääskeläinen</h2><p>Dr. Kari Jääskeläinen is an entrepreneur, business leader and consultant with experience in market validation, technology commercialisation, business development and sales. He has worked on around 200 commercialisation and consulting projects and has made approximately 2,000 sales calls a year.</p><a class="text-link" href="/about-kari-jaaskelainen/">Read about Dr. Kari Jääskeläinen’s experience →</a></div></section>
+
+            <section class="sources"><h2>Sources</h2><ol><li>Hennink, M. and Kaiser, B. (2022). <a href="https://pubmed.ncbi.nlm.nih.gov/34785096/"><cite>Sample sizes for saturation in qualitative research: A systematic review of empirical tests</cite></a>. Social Science &amp; Medicine, 292, 114523.</li><li>Malterud, K., Siersma, V. D. and Guassora, A. D. (2016). <a href="https://pubmed.ncbi.nlm.nih.gov/26613970/"><cite>Sample Size in Qualitative Interview Studies: Guided by Information Power</cite></a>. Qualitative Health Research, 26(13), 1753–1760.</li><li>Vasileiou, K., Barnett, J., Thorpe, S. and Young, T. (2018). <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6249736/"><cite>Characterising and justifying sample size sufficiency in interview-based studies</cite></a>. BMC Medical Research Methodology, 18, 148.</li></ol></section>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="site-footer"><div class="container footer-wrap"><span>© 2026 Test Before You Build</span><div class="footer-links"><a href="/">Homepage</a><a href="/market-validation-services-pricing/">Services and pricing</a><a href="/about-kari-jaaskelainen/">About Dr. Kari</a><a href="/privacy/">Privacy</a></div></div></footer>
+  </body>
+</html>
+
+<style>
+  :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#0d1930;background:#fff;line-height:1.68;font-synthesis:none;text-rendering:optimizeLegibility}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}.container{width:min(1160px,calc(100% - 40px));margin:0 auto}.site-header{position:sticky;top:0;z-index:20;border-bottom:1px solid #dce4ef;background:rgba(255,255,255,.94);backdrop-filter:blur(14px)}.nav-wrap{min-height:76px;display:flex;align-items:center;gap:28px}.brand{display:inline-flex;align-items:center;gap:11px;font-weight:900;text-decoration:none;white-space:nowrap}.brand-mark{width:18px;height:18px;border-radius:5px;background:#155eef;box-shadow:8px 8px 0 #79a2ff}.main-nav{display:flex;align-items:center;gap:25px;margin-left:auto}.main-nav a{color:#405573;font-size:.94rem;font-weight:750;text-decoration:none}.button{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border:0;border-radius:10px;background:#155eef;color:#fff;font-weight:850;text-decoration:none}.button-small{padding:11px 17px;font-size:.92rem}.button-light{background:#fff;color:#102a4f}.article-hero{padding:70px 0;background:linear-gradient(140deg,#f5f8ff 0%,#fff 70%)}.article-head{max-width:980px}.breadcrumbs{display:flex;gap:10px;margin-bottom:46px;color:#687a95;font-size:.88rem}.breadcrumbs a{font-weight:750}.eyebrow{margin:0 0 14px;color:#155eef;font-size:1rem;line-height:1.3;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.eyebrow-light{color:#8bb4ff}h1,h2,h3{margin-top:0;letter-spacing:-.018em}h1{max-width:900px;margin-bottom:28px;font-size:clamp(3rem,6vw,5rem);line-height:1.04}h2{margin:64px 0 22px;font-size:clamp(2rem,4vw,3.1rem);line-height:1.13}h3{margin:40px 0 13px;font-size:1.38rem;line-height:1.3}.standfirst{max-width:850px;margin:0;color:#405573;font-size:1.27rem;line-height:1.72}.byline{display:flex;align-items:center;gap:15px;margin-top:32px}.byline img{border-radius:50%;object-fit:cover}.byline div{display:flex;flex-direction:column}.byline span,.byline time{color:#687a95;font-size:.87rem}.scope-summary{margin-top:40px;padding:24px 28px;border-left:5px solid #155eef;background:#eef4ff}.scope-summary p{margin:5px 0 0;color:#405573}.article-layout{display:grid;grid-template-columns:220px minmax(0,760px);justify-content:center;gap:78px;padding-top:78px;padding-bottom:96px}.toc{position:sticky;top:112px;align-self:start;display:flex;flex-direction:column;gap:10px;padding:20px;border-left:3px solid #d9e3f2;color:#536781;font-size:.88rem}.toc strong{margin-bottom:5px;color:#0d1930}.toc a{text-decoration:none}.article-body{min-width:0;color:#405573;font-size:1.08rem}.article-body section{scroll-margin-top:110px}.article-body p,.article-body li{max-width:72ch}.article-body h2,.article-body h3{color:#0d1930}.article-body ul{padding-left:22px}.article-body li{margin:8px 0}.article-body a:not(.button){color:#155eef;text-underline-offset:3px}.article-body blockquote{margin:34px 0;padding:22px 28px;border-left:5px solid #155eef;background:#f4f7fb;color:#102a4f;font-size:1.2rem;font-weight:800}.inline-cta{margin:70px 0;padding:36px;border-radius:20px;background:#0b1f3a;color:#fff}.inline-cta h2{margin:0 0 25px;color:#fff;font-size:2rem}.evidence-note{margin:30px 0;padding:22px 25px;border:1px solid #cad7e9;border-radius:12px;background:#f6f8fc}.evidence-note p{margin:6px 0 0}.comparison-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.comparison-grid>div{padding:26px;border:1px solid #d7dfeb;border-radius:16px;background:#f8faff}.comparison-grid h3{margin-top:0}.steps{padding:0;list-style:none;counter-reset:steps}.steps li{display:grid;grid-template-columns:1fr;gap:2px;margin:0;padding:19px 0 19px 48px;border-bottom:1px solid #d7dfeb;position:relative;counter-increment:steps}.steps li:before{content:counter(steps);position:absolute;left:0;top:17px;display:grid;width:31px;height:31px;place-items:center;border-radius:50%;background:#155eef;color:#fff;font-weight:900}.steps span{color:#536781}.table-wrap{overflow-x:auto;margin:28px 0}table{width:100%;border-collapse:collapse;font-size:.96rem}th,td{padding:15px;border:1px solid #d7dfeb;text-align:left;vertical-align:top}th{background:#0b1f3a;color:#fff}.faq-list{border-top:1px solid #d2dbe8}.faq-list details{border-bottom:1px solid #d2dbe8}.faq-list summary{padding:20px 34px 20px 0;color:#0d1930;font-weight:850;cursor:pointer}.faq-list p{margin:0;padding:0 34px 20px 0}.final-cta{margin:76px 0;padding:42px;border-radius:22px;background:#155eef;color:#fff}.final-cta h2{margin:0 0 20px;color:#fff}.final-cta p{color:#e9f0ff}.author-card{display:grid;grid-template-columns:140px 1fr;gap:28px;align-items:start;margin:70px 0;padding:30px;border:1px solid #d7dfeb;border-radius:18px;background:#f8faff}.author-card img{width:140px;height:140px;border-radius:18px;object-fit:cover}.author-card h2{margin:0 0 12px;font-size:2rem}.author-card p{margin-top:0}.sources{font-size:.95rem}.sources li{margin-bottom:15px}.site-footer{padding:34px 0;background:#07152a;color:#aabbd3}.footer-wrap,.footer-links{display:flex;align-items:center;gap:22px}.footer-wrap{justify-content:space-between}.footer-links a{color:#fff;font-size:.9rem;font-weight:750}
+  @media(max-width:900px){.main-nav{display:none}.nav-wrap{justify-content:space-between}.article-layout{grid-template-columns:1fr}.toc{display:none}.comparison-grid{grid-template-columns:1fr}}
+  @media(max-width:640px){.container{width:min(100% - 28px,1160px)}.site-header .button-small{display:none}.nav-wrap{min-height:68px}.brand{font-size:.94rem}.article-hero{padding:46px 0 58px}.breadcrumbs{margin-bottom:32px}h1{font-size:clamp(2.65rem,13vw,4rem)}h2{margin-top:52px;font-size:clamp(2rem,10vw,3rem)}.standfirst{font-size:1.1rem}.article-layout{padding-top:48px;padding-bottom:64px}.inline-cta,.final-cta{padding:28px 22px}.author-card{grid-template-columns:1fr}.author-card img{width:120px;height:120px}.footer-wrap,.footer-links{align-items:flex-start;flex-direction:column}}
+</style>

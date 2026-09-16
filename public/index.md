@@ -2,8 +2,8 @@
 
 **Summary:** Customer validation through 20 interviews with realistic potential customers, followed by a clear BUILD, CHANGE, or KILL recommendation.
 
-**Service provider:** Kari Jääskeläinen  
-**Last updated:** 11 September 2026  
+**Service provider:** Dr. Kari Jääskeläinen
+**Last updated:** 16 September 2026
 **Canonical HTML:** https://testbeforeyoubuild.com/
 
 ## Find out if customers actually want your idea before you build it
@@ -45,7 +45,13 @@ Dr. Kari Jääskeläinen is an entrepreneur, business leader and consultant whos
 
 He has completed around 200 commercialization and business development projects and co-founded ventures in MedTech, private higher education, wireless technology and artificial intelligence.
 
-[Read about Kari’s experience](https://testbeforeyoubuild.com/about-kari-jaaskelainen/).
+[Read about Dr. Kari’s experience](https://testbeforeyoubuild.com/about-kari-jaaskelainen/).
+
+## Customer interview sample size
+
+There is no universal interview number for every validation project. The right scope depends on participant relevance, the segments that must be understood, the evidence added by each interview and the decision the research must support.
+
+[Read how many customer interviews are enough](https://testbeforeyoubuild.com/how-many-customer-interviews/).
 
 ## Frequently asked questions
 
@@ -53,9 +59,9 @@ He has completed around 200 commercialization and business development projects 
 
 We focus mainly on B2B or B2C products, services, software, and research-based innovations where realistic potential customers can be clearly identified.
 
-### Why 20 interviews?
+### Is the service limited to 20 interviews?
 
-Twenty interviews provide a focused evidence base for identifying repeated themes and important disagreements. They do not prove market demand statistically, so the recommendation also explains the limits of the evidence.
+No. The standard €2,900 + VAT service includes 20 interviews. Projects involving multiple customer segments, buyer roles, countries, use cases or broader objectives can be scoped and priced separately.
 
 ### Do you only interview people who already know us?
 

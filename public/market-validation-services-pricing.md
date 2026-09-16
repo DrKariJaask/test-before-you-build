@@ -8,7 +8,7 @@
 
 ## Know whether your idea is worth building — before you build it
 
-Kari defines the relevant potential-buyer or user group and identifies approximately 30–40 suitable prospects based on the agreed target definition. The client approves the target list before outreach begins. Kari handles the outreach and conducts the 20 interviews.
+Dr. Kari defines the relevant potential-buyer or user group and identifies approximately 30–40 suitable prospects based on the agreed target definition. The client approves the target list before outreach begins. Dr. Kari handles the outreach and conducts the 20 interviews.
 
 The client receives the interview transcripts, evidence analysis, a written report, recommended changes and a BUILD, CHANGE or KILL recommendation.
 
@@ -35,13 +35,13 @@ Participants may be realistic potential buyers, users or both. The service does 
 ## Process
 
 1. Define the commercial decision and target group.
-2. Kari identifies approximately 30–40 suitable prospects and obtains client approval.
-3. Kari handles the outreach and recruits 20 participants.
-4. Kari conducts and transcribes 20 interviews.
+2. Dr. Kari identifies approximately 30–40 suitable prospects and obtains client approval.
+3. Dr. Kari handles the outreach and recruits 20 participants.
+4. Dr. Kari conducts and transcribes 20 interviews.
 5. Analyse recurring themes, disagreements, objections and demand signals.
 6. Deliver the evidence and recommendation.
 
-Twenty interviews provide focused qualitative evidence. They do not constitute statistically representative proof or guarantee future demand.
+Twenty interviews provide focused qualitative evidence about the strength, nature and conditions of demand. The standard service is not a limit: larger projects can be scoped separately when the commercial question requires broader coverage.
 
 ## BUILD, CHANGE or KILL
 
@@ -59,7 +59,13 @@ Dr. Kari Jääskeläinen is an entrepreneur, business leader and consultant whos
 
 He has completed around 200 commercialization and business development projects and co-founded ventures in MedTech, private higher education, wireless technology and artificial intelligence.
 
-[Read about Kari’s experience](https://testbeforeyoubuild.com/about-kari-jaaskelainen/).
+[Read about Dr. Kari’s experience](https://testbeforeyoubuild.com/about-kari-jaaskelainen/).
+
+## Is the service limited to 20 interviews?
+
+No. The standard €2,900 + VAT service includes 20 interviews. Projects involving multiple customer segments, buyer roles, countries, use cases or broader objectives can be scoped and priced separately.
+
+[Read how many customer interviews are enough](https://testbeforeyoubuild.com/how-many-customer-interviews/).
 
 ## Contact
 
