@@ -12,6 +12,8 @@ Service provider: Dr. Kari Jääskeläinen, entrepreneur, business leader, and c
 - [Homepage in Markdown](https://testbeforeyoubuild.com/index.md): Text equivalent of the homepage.
 - [Market validation services and pricing](https://testbeforeyoubuild.com/market-validation-services-pricing/): Full scope, process, deliverables, timeline, price, decision framework, and enquiry form.
 - [Market validation services and pricing in Markdown](https://testbeforeyoubuild.com/market-validation-services-pricing.md): Text equivalent of the service page.
+- [How to validate a business idea before you build](https://testbeforeyoubuild.com/how-to-validate-a-business-idea/): Practical guide to assumptions, customer evidence, validation methods and BUILD, CHANGE or KILL decisions.
+- [Business idea validation guide in Markdown](https://testbeforeyoubuild.com/how-to-validate-a-business-idea/index.md): Text equivalent of the business idea validation guide.
 - [How many customer interviews are enough?](https://testbeforeyoubuild.com/how-many-customer-interviews/): Evidence-based guide to interview sample size, information sufficiency and project scoping.
 - [Customer interview guide in Markdown](https://testbeforeyoubuild.com/how-many-customer-interviews/index.md): Text equivalent of the customer interview guide.
 - [About Dr. Kari Jääskeläinen](https://testbeforeyoubuild.com/about-kari-jaaskelainen/): Professional background, selected experience and relevance to independent market validation.

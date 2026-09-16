@@ -53,6 +53,8 @@ There is no universal interview number for every validation project. The right s
 
 [Read how many customer interviews are enough](https://testbeforeyoubuild.com/how-many-customer-interviews/).
 
+[Read how to validate a business idea before you build](https://testbeforeyoubuild.com/how-to-validate-a-business-idea/).
+
 ## Frequently asked questions
 
 ### What kinds of ideas can you test?

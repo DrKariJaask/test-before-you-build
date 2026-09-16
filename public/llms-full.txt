@@ -30,6 +30,18 @@ Full guide: https://testbeforeyoubuild.com/how-many-customer-interviews/
 
 Markdown: https://testbeforeyoubuild.com/how-many-customer-interviews/index.md
 
+## Business idea validation guide
+
+Business idea validation tests the assumptions that must be true before a major development investment is justified. The process begins by defining the commercial decision, identifying the most consequential uncertain assumptions and specifying realistic buyers, users and other decision-makers.
+
+Useful evidence can include existing market research, search and behavioural data, customer interviews, prototypes, pilots, pre-sales and procurement steps. Each method answers different questions. Evidence should be connected to a named assumption and assessed against decision criteria established before the results are known.
+
+The outcome is a BUILD, CHANGE or KILL decision. BUILD means the critical assumptions are sufficiently supported for the next investment. CHANGE means the evidence supports a meaningful problem but weakens an important part of the target segment, solution, positioning, buying process or commercial model. KILL means critical assumptions fail without a credible correction.
+
+Full guide: https://testbeforeyoubuild.com/how-to-validate-a-business-idea/
+
+Markdown: https://testbeforeyoubuild.com/how-to-validate-a-business-idea/index.md
+
 ## Suitability
 
 The service is a strong fit when potential buyers can be identified, the client faces a meaningful build, funding, or commercialisation decision, and the client is willing to change or stop the idea if the evidence points that way.

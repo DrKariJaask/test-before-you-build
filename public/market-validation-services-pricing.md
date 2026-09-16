@@ -67,6 +67,8 @@ No. The standard €2,900 + VAT service includes 20 interviews. Projects involvi
 
 [Read how many customer interviews are enough](https://testbeforeyoubuild.com/how-many-customer-interviews/).
 
+[Read how to validate a business idea before you build](https://testbeforeyoubuild.com/how-to-validate-a-business-idea/).
+
 ## Contact
 
 [Submit your idea](https://testbeforeyoubuild.com/market-validation-services-pricing/#contact).

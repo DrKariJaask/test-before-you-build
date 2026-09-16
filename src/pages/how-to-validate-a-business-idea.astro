@@ -1,0 +1,215 @@
+---
+const title = "How to Validate a Business Idea Before You Build";
+const description =
+  "A practical, evidence-based process for validating a business idea, testing market demand and deciding whether to build, change or stop.";
+const canonical = "https://testbeforeyoubuild.com/how-to-validate-a-business-idea/";
+const siteUrl = "https://testbeforeyoubuild.com/";
+const socialImage = `${siteUrl}og.jpg`;
+const published = "2026-09-16";
+const faqs = [
+  { question: "What is business idea validation?", answer: "Business idea validation is a structured process for testing the assumptions that must be true for an idea to become a viable product, service or business. It examines the customer problem, target group, current alternatives, demand conditions, buying process and commercial model before major development investment." },
+  { question: "How do you validate a business idea before building it?", answer: "Define the decision, identify the riskiest assumptions, select a realistic target group, gather existing market evidence, interview potential buyers or users, test the most important remaining assumptions and compare the evidence against decision criteria established in advance." },
+  { question: "How many customer interviews are needed?", answer: "There is no universal number. The appropriate scope depends on participant relevance, the number of customer segments, the commercial question and how much new information each interview adds. A focused project may use 20 interviews, while broader studies may require substantially more." },
+  { question: "Can customer interviews validate market demand?", answer: "Customer interviews can provide meaningful evidence about the strength, nature and conditions of demand. They reveal problems, current behaviour, alternatives, buying criteria and barriers to change. For some decisions, the next stage should add behavioural evidence such as a pilot, pre-sale, procurement step or purchase." },
+  { question: "What is the difference between market research and business idea validation?", answer: "Market research describes a market, its size, competitors and trends. Business idea validation tests the specific assumptions behind a particular idea and connects the evidence to a decision about what to build, change or stop." },
+  { question: "When should an idea be changed instead of killed?", answer: "Change the idea when the evidence supports a meaningful customer problem but weakens an important part of the proposed solution, target segment, positioning, buying process or commercial model. Kill or pause it when critical assumptions fail and no credible adjustment resolves them." },
+];
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Article", "@id": `${canonical}#article`, headline: title, description, datePublished: published, dateModified: published, mainEntityOfPage: { "@id": `${canonical}#webpage` }, author: { "@id": `${siteUrl}#kari-jaaskelainen` }, publisher: { "@id": `${siteUrl}#organization` }, image: socialImage },
+    { "@type": "WebPage", "@id": `${canonical}#webpage`, url: canonical, name: title, description, isPartOf: { "@id": `${siteUrl}#website` }, breadcrumb: { "@id": `${canonical}#breadcrumb` } },
+    { "@type": "BreadcrumbList", "@id": `${canonical}#breadcrumb`, itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Test Before You Build", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: title, item: canonical },
+    ] },
+    { "@type": "Organization", "@id": `${siteUrl}#organization`, name: "Test Before You Build", url: siteUrl, founder: { "@id": `${siteUrl}#kari-jaaskelainen` } },
+    { "@type": "Person", "@id": `${siteUrl}#kari-jaaskelainen`, name: "Dr. Kari Jääskeläinen", url: `${siteUrl}about-kari-jaaskelainen/`, image: `${siteUrl}kari-jaaskelainen.jpg`, worksFor: { "@id": `${siteUrl}#organization` }, jobTitle: "Customer validation consultant" },
+    { "@type": "FAQPage", "@id": `${canonical}#faq-schema`, mainEntity: faqs.map(({ question, answer }) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })) },
+  ],
+};
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b1f3a" />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="text/markdown" href={`${canonical}index.md`} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:site_name" content="Test Before You Build" />
+    <meta property="article:published_time" content={published} />
+    <meta property="article:modified_time" content={published} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <title>{title}</title>
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/"><span class="brand-mark"></span><span>Test Before You Build</span></a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="/">Homepage</a>
+          <a href="/market-validation-services-pricing/">Services and pricing</a>
+          <a href="/about-kari-jaaskelainen/">About Dr. Kari</a>
+        </nav>
+        <a class="button button-small" href="/#contact">Submit your idea</a>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <header class="article-hero">
+          <div class="container article-head">
+            <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Test Before You Build</a><span>›</span><span>Business idea validation</span></nav>
+            <p class="eyebrow">Market validation guide</p>
+            <h1>How to validate a business idea before you build</h1>
+            <p class="standfirst">Validate the assumptions that could make the idea succeed or fail before committing to development. Define the decision, identify the right customers, gather evidence about their problems and behaviour, and use explicit criteria to decide whether to BUILD, CHANGE or KILL.</p>
+            <div class="byline"><img src="/kari-jaaskelainen.jpg" width="72" height="72" alt="Dr. Kari Jääskeläinen" /><div><strong>By <a href="/about-kari-jaaskelainen/">Dr. Kari Jääskeläinen</a></strong><span>Market validation, commercialisation and customer discovery</span><time datetime={published}>Published and updated 16 September 2026</time></div></div>
+            <aside class="scope-summary"><strong>The short answer</strong><p>A promising idea is not validated because people like it. It is validated when evidence supports the critical assumptions behind a real commercial decision: a meaningful problem, an identifiable customer, sufficient motivation to change, a workable buying process and a credible way to create and capture value.</p></aside>
+          </div>
+        </header>
+
+        <div class="container article-layout">
+          <aside class="toc" aria-label="On this page"><strong>On this page</strong><a href="#meaning">What validation means</a><a href="#assumptions">What must be true</a><a href="#process">Seven-step process</a><a href="#evidence">Strength of evidence</a><a href="#decision">BUILD, CHANGE or KILL</a><a href="#mistakes">Common mistakes</a><a href="#faq">FAQ</a></aside>
+          <div class="article-body">
+            <section id="meaning">
+              <h2>What business idea validation actually means</h2>
+              <p>Business idea validation is a structured attempt to find out whether the assumptions behind an idea are strong enough to justify the next investment. It is not a search for compliments, a polished business plan or a single score that declares an idea valid.</p>
+              <p>The useful question is not simply “Is this a good idea?” It is:</p>
+              <blockquote>What must be true for this idea to work, and what evidence would change our decision?</blockquote>
+              <p>A business idea normally combines several claims: a particular group experiences an important problem, existing alternatives are inadequate, the proposed approach creates meaningful value, someone can and will make the buying decision, and the economics can work. These claims need different evidence.</p>
+              <h3>Validation reduces uncertainty; it does not eliminate it</h3>
+              <p>No research method can guarantee future sales. Markets change, execution matters and customers do not always behave as expected. Good validation makes the remaining uncertainty visible and reduces the chance of building around assumptions that the intended market does not share.</p>
+              <h3>Market research and validation are related but different</h3>
+              <p>Market research can describe market size, competitors, trends and customer categories. Validation applies evidence to the specific assumptions and decision behind one idea. A large market does not establish that a particular customer will adopt a particular solution through a workable buying process.</p>
+            </section>
+
+            <section id="assumptions">
+              <h2>Start with the assumptions that must be true</h2>
+              <p>Write the idea as a set of claims before choosing a research method. This prevents an attractive solution from hiding weak assumptions.</p>
+              <div class="assumption-grid">
+                <div><h3>Customer</h3><p>Can you identify realistic buyers, users and other decision-makers precisely enough to reach them?</p></div>
+                <div><h3>Problem</h3><p>Does the target group experience the problem frequently or seriously enough to act?</p></div>
+                <div><h3>Current behaviour</h3><p>What do customers do today, what does it cost them and why have they not already changed?</p></div>
+                <div><h3>Value</h3><p>Would the proposed improvement matter compared with existing alternatives and doing nothing?</p></div>
+                <div><h3>Buying process</h3><p>Who decides, who pays, what approvals are required and what could block adoption?</p></div>
+                <div><h3>Commercial model</h3><p>Can the idea be delivered, sold and supported at economics that work for both sides?</p></div>
+              </div>
+              <p>Prioritise assumptions by consequence and uncertainty. Test first the assumption that would make the idea untenable if it proved false. Do not spend weeks refining a logo, prototype or forecast while the central customer problem remains an opinion.</p>
+            </section>
+
+            <aside class="inline-cta"><p class="eyebrow">Need independent evidence?</p><h2>Test the critical assumptions before development begins.</h2><p>Dr. Kari identifies and interviews realistic potential buyers or users, analyses the evidence and provides a BUILD, CHANGE or KILL recommendation.</p><a class="button" href="/market-validation-services-pricing/">See the service and pricing</a></aside>
+
+            <section id="process">
+              <h2>A seven-step business idea validation process</h2>
+              <ol class="steps">
+                <li><strong>Define the decision.</strong><span>State what you are deciding now: whether to invest, which segment to pursue, what problem to solve or which assumptions need another test.</span></li>
+                <li><strong>Write down the critical assumptions.</strong><span>Separate claims about customers, problems, alternatives, buying behaviour, value, feasibility and economics.</span></li>
+                <li><strong>Define the target group.</strong><span>Specify realistic buyers, users and decision-makers by role, situation, current behaviour and relevant trigger—not only by broad demographics or industry.</span></li>
+                <li><strong>Review existing evidence.</strong><span>Examine alternatives, market structure, search behaviour, regulations, purchasing routes and previous research. Use this to improve the questions, not to replace direct customer evidence.</span></li>
+                <li><strong>Interview potential customers.</strong><span>Investigate past and present behaviour, the consequences of the problem, current workarounds, buying criteria, decision authority and barriers to change.</span></li>
+                <li><strong>Test the most important remaining uncertainty.</strong><span>Depending on the decision, use a prototype, landing page, paid pilot, pre-sale, procurement conversation or another experiment that produces stronger behavioural evidence.</span></li>
+                <li><strong>Compare the evidence with decision criteria.</strong><span>Document support, contradictions, segment differences and unresolved questions. Decide whether to BUILD, CHANGE or KILL rather than converting every result into permission to continue.</span></li>
+              </ol>
+
+              <h3>Define the customer before recruiting participants</h3>
+              <p>“Companies,” “consumers” or “healthcare professionals” are rarely precise enough. A useful target definition identifies the people affected by the problem, their role in using or buying a solution, the context in which the need occurs and relevant constraints.</p>
+              <p>The people interviewed may be potential buyers, users or both. When users experience the problem but other people approve the budget, the groups should be represented and analysed separately.</p>
+
+              <h3>Ask about reality before presenting the idea</h3>
+              <p>Begin with actual events: the last time the problem occurred, what the participant did, what it cost, who became involved and why the present solution was accepted. Presenting the proposed solution too early can turn discovery into a polite product review.</p>
+              <p>Useful interviews explore evidence of urgency and change. They do not ask participants to predict with confidence what they might buy in an imagined future.</p>
+              <p><a href="/how-many-customer-interviews/">Read how to decide how many customer interviews are enough</a>.</p>
+            </section>
+
+            <section id="evidence">
+              <h2>Use the right evidence for the question</h2>
+              <p>Different methods answer different questions. Combining them creates a stronger case than asking one method to do everything.</p>
+              <div class="table-wrap"><table><thead><tr><th>Evidence</th><th>What it can help establish</th><th>Main limitation</th></tr></thead><tbody>
+                <tr><td>Market and competitor research</td><td>Market structure, alternatives, trends, constraints and possible segments</td><td>Does not show why a specific customer would change</td></tr>
+                <tr><td>Search and behavioural data</td><td>Existing interest, language, journeys and observable behaviour</td><td>May not identify the buyer, urgency or purchasing conditions</td></tr>
+                <tr><td>Customer interviews</td><td>Problems, current behaviour, motivations, decision criteria and barriers</td><td>Requires relevant participants and careful interpretation</td></tr>
+                <tr><td>Prototype or concept test</td><td>Understanding, usability, relevance and reactions to a proposed approach</td><td>Positive reaction is not the same as purchase</td></tr>
+                <tr><td>Pilot, pre-sale or procurement step</td><td>Willingness to commit time, reputation, process or money</td><td>Usually requires a clearer offer and more preparation</td></tr>
+              </tbody></table></div>
+              <p>Evidence becomes more useful when it is tied to a named assumption and a decision. A high search volume may show interest in a problem category. It does not by itself establish that your proposed product, customer segment, price and route to market fit together.</p>
+
+              <h3>What customer interviews contribute</h3>
+              <p>Interviews can reveal the strength, nature and conditions of market demand: whether realistic potential buyers or users experience the problem, how important it is, what they do today, what triggers change and what could block adoption.</p>
+              <p>When these signals recur across a carefully selected group, they provide meaningful evidence for deciding whether to continue, change direction or stop. Broader questions, multiple segments or several markets may require a larger interview project rather than treating one fixed number as a universal rule.</p>
+            </section>
+
+            <section id="decision">
+              <h2>Turn the evidence into a BUILD, CHANGE or KILL decision</h2>
+              <p>Set decision criteria before collecting evidence. Otherwise, teams can reinterpret almost any result as support for the idea.</p>
+              <div class="decision-grid">
+                <div><span>BUILD</span><h3>The critical assumptions are sufficiently supported</h3><p>The target group, problem, current behaviour and route to adoption form a credible case for the next investment. State what still needs to be tested during development.</p></div>
+                <div><span>CHANGE</span><h3>A real problem exists, but an important assumption is weak</h3><p>Change the target segment, problem framing, value proposition, solution, buying process or commercial model. Then test the revised assumption.</p></div>
+                <div><span>KILL</span><h3>Critical assumptions fail without a credible correction</h3><p>Stop or pause the idea when the problem lacks importance, the target group cannot be reached, alternatives are adequate or the buying conditions make the model unworkable.</p></div>
+              </div>
+              <p>Killing a weak idea is a useful result when it prevents a larger loss. Changing a promising idea is also a validation outcome—not a failure to confirm the original plan.</p>
+            </section>
+
+            <section id="mistakes">
+              <h2>Common business idea validation mistakes</h2>
+              <ul>
+                <li><strong>Starting with the solution.</strong> The discussion becomes a review of features before the underlying problem is understood.</li>
+                <li><strong>Interviewing convenient people.</strong> Friends, colleagues and existing supporters may not represent realistic buyers or users.</li>
+                <li><strong>Combining distinct groups.</strong> Users, buyers, managers and procurement teams can have different incentives and objections.</li>
+                <li><strong>Asking leading questions.</strong> Questions that explain the desired answer produce agreement rather than evidence.</li>
+                <li><strong>Treating stated interest as commitment.</strong> “I would use this” is weaker than an action involving time, process, reputation or money.</li>
+                <li><strong>Counting only positive responses.</strong> Contradictions and barriers may contain the most valuable information.</li>
+                <li><strong>Using a fixed interview number as proof.</strong> Sample relevance and information gained matter more than reaching an arbitrary total.</li>
+                <li><strong>Moving the criteria after seeing the result.</strong> If every outcome leads to building, the process did not test a real decision.</li>
+              </ul>
+              <h3>Why use an independent interviewer?</h3>
+              <p>Founders and internal teams know what they hope to hear. Participants may also soften criticism when speaking directly to the person who created the idea. An independent interviewer can examine the same assumptions across participants, follow contradictory evidence and separate what was actually said from what the team hoped it meant.</p>
+            </section>
+
+            <section id="faq">
+              <p class="eyebrow">Frequently asked questions</p><h2>Questions about validating a business idea</h2>
+              <div class="faq-list">{faqs.map(({ question, answer }) => <details><summary>{question}</summary><p>{answer}</p></details>)}</div>
+            </section>
+
+            <section class="final-cta">
+              <p class="eyebrow eyebrow-light">Independent market validation</p>
+              <h2>Know whether your idea is worth building—before you build it.</h2>
+              <p>The standard project includes target definition, prospect selection and client approval, recruitment, 20 independent interviews, transcripts, evidence analysis, a written report, recommended changes and a BUILD, CHANGE or KILL recommendation.</p>
+              <p>Fixed price: €2,900 + VAT. Typical timeline: approximately 2–4 weeks. Larger or multi-segment projects can be scoped and priced separately.</p>
+              <a class="button button-light" href="/#contact">Submit your idea</a>
+            </section>
+
+            <section class="author-card"><img src="/kari-jaaskelainen.jpg" width="160" height="160" alt="Dr. Kari Jääskeläinen" loading="lazy" /><div><p class="eyebrow">About the author</p><h2>Dr. Kari Jääskeläinen</h2><p>Dr. Kari Jääskeläinen is an entrepreneur, business leader and consultant with experience in market validation, technology commercialisation, business development and sales. He has worked on around 200 commercialisation and consulting projects and has made approximately 2,000 sales calls a year.</p><a class="text-link" href="/about-kari-jaaskelainen/">Read about Dr. Kari Jääskeläinen’s experience →</a></div></section>
+
+            <section class="sources"><h2>Sources and further reading</h2><ol>
+              <li>Harvard Business School Online. <a href="https://online.hbs.edu/blog/post/market-validation"><cite>5 Steps to Validate Your Business Idea</cite></a>.</li>
+              <li>Bland, D. J. and Osterwalder, A. <a href="https://www.strategyzer.com/library/testing-business-ideas-book"><cite>Testing Business Ideas</cite></a>. Strategyzer.</li>
+              <li>Strategyzer. <a href="https://www.strategyzer.com/library/designing-strong-experiments"><cite>Designing Strong Experiments</cite></a>.</li>
+              <li>National Science Foundation. <a href="https://nsf-gov-resources.nsf.gov/2022-06/NSFI-Corps2021BiennialReport.pdf"><cite>NSF I-Corps Biennial Report 2019–2021</cite></a>.</li>
+            </ol></section>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="site-footer"><div class="container footer-wrap"><span>© 2026 Test Before You Build</span><div class="footer-links"><a href="/">Homepage</a><a href="/market-validation-services-pricing/">Services and pricing</a><a href="/how-many-customer-interviews/">Interview sample size</a><a href="/about-kari-jaaskelainen/">About Dr. Kari</a><a href="/privacy/">Privacy</a></div></div></footer>
+  </body>
+</html>
+
+<style>
+  :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#0d1930;background:#fff;line-height:1.68;font-synthesis:none;text-rendering:optimizeLegibility}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}.container{width:min(1160px,calc(100% - 40px));margin:0 auto}.site-header{position:sticky;top:0;z-index:20;border-bottom:1px solid #dce4ef;background:rgba(255,255,255,.94);backdrop-filter:blur(14px)}.nav-wrap{min-height:76px;display:flex;align-items:center;gap:28px}.brand{display:inline-flex;align-items:center;gap:11px;font-weight:900;text-decoration:none;white-space:nowrap}.brand-mark{width:18px;height:18px;border-radius:5px;background:#155eef;box-shadow:8px 8px 0 #79a2ff}.main-nav{display:flex;align-items:center;gap:25px;margin-left:auto}.main-nav a{color:#405573;font-size:.94rem;font-weight:750;text-decoration:none}.button{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border:0;border-radius:10px;background:#155eef;color:#fff;font-weight:850;text-decoration:none}.button-small{padding:11px 17px;font-size:.92rem}.button-light{background:#fff;color:#102a4f}.article-hero{padding:70px 0;background:linear-gradient(140deg,#f5f8ff 0%,#fff 70%)}.article-head{max-width:980px}.breadcrumbs{display:flex;gap:10px;margin-bottom:46px;color:#687a95;font-size:.88rem}.breadcrumbs a{font-weight:750}.eyebrow{margin:0 0 14px;color:#155eef;font-size:1rem;line-height:1.3;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.eyebrow-light{color:#8bb4ff}h1,h2,h3{margin-top:0;letter-spacing:-.018em}h1{max-width:900px;margin-bottom:28px;font-size:clamp(3rem,6vw,5rem);line-height:1.04}h2{margin:64px 0 22px;font-size:clamp(2rem,4vw,3.1rem);line-height:1.13}h3{margin:40px 0 13px;font-size:1.38rem;line-height:1.3}.standfirst{max-width:850px;margin:0;color:#405573;font-size:1.27rem;line-height:1.72}.byline{display:flex;align-items:center;gap:15px;margin-top:32px}.byline img{border-radius:50%;object-fit:cover}.byline div{display:flex;flex-direction:column}.byline span,.byline time{color:#687a95;font-size:.87rem}.scope-summary{margin-top:40px;padding:24px 28px;border-left:5px solid #155eef;background:#eef4ff}.scope-summary p{margin:5px 0 0;color:#405573}.article-layout{display:grid;grid-template-columns:220px minmax(0,760px);justify-content:center;gap:78px;padding-top:78px;padding-bottom:96px}.toc{position:sticky;top:112px;align-self:start;display:flex;flex-direction:column;gap:10px;padding:20px;border-left:3px solid #d9e3f2;color:#536781;font-size:.88rem}.toc strong{margin-bottom:5px;color:#0d1930}.toc a{text-decoration:none}.article-body{min-width:0;color:#405573;font-size:1.08rem}.article-body section{scroll-margin-top:110px}.article-body p,.article-body li{max-width:72ch}.article-body h2,.article-body h3{color:#0d1930}.article-body ul{padding-left:22px}.article-body li{margin:10px 0}.article-body a:not(.button){color:#155eef;text-underline-offset:3px}.article-body blockquote{margin:34px 0;padding:22px 28px;border-left:5px solid #155eef;background:#f4f7fb;color:#102a4f;font-size:1.2rem;font-weight:800}.inline-cta{margin:70px 0;padding:36px;border-radius:20px;background:#0b1f3a;color:#fff}.inline-cta h2{margin:0 0 18px;color:#fff;font-size:2rem}.inline-cta p:not(.eyebrow){color:#dce8fa}.assumption-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0}.assumption-grid>div{padding:23px;border:1px solid #d7dfeb;border-radius:14px;background:#f8faff}.assumption-grid h3{margin:0 0 7px}.assumption-grid p{margin:0}.steps{padding:0;list-style:none;counter-reset:steps}.steps li{display:grid;grid-template-columns:1fr;gap:2px;margin:0;padding:19px 0 19px 48px;border-bottom:1px solid #d7dfeb;position:relative;counter-increment:steps}.steps li:before{content:counter(steps);position:absolute;left:0;top:17px;display:grid;width:31px;height:31px;place-items:center;border-radius:50%;background:#155eef;color:#fff;font-weight:900}.steps span{color:#536781}.table-wrap{overflow-x:auto;margin:28px 0}table{width:100%;border-collapse:collapse;font-size:.96rem}th,td{padding:15px;border:1px solid #d7dfeb;text-align:left;vertical-align:top}th{background:#0b1f3a;color:#fff}.decision-grid{display:grid;gap:16px;margin:30px 0}.decision-grid>div{padding:26px;border:1px solid #d7dfeb;border-radius:16px;background:#f8faff}.decision-grid span{display:inline-block;margin-bottom:10px;color:#155eef;font-weight:950;letter-spacing:.12em}.decision-grid h3{margin:0 0 10px}.decision-grid p{margin:0}.faq-list{border-top:1px solid #d2dbe8}.faq-list details{border-bottom:1px solid #d2dbe8}.faq-list summary{padding:20px 34px 20px 0;color:#0d1930;font-weight:850;cursor:pointer}.faq-list p{margin:0;padding:0 34px 20px 0}.final-cta{margin:76px 0;padding:42px;border-radius:22px;background:#155eef;color:#fff}.final-cta h2{margin:0 0 20px;color:#fff}.final-cta p{color:#e9f0ff}.author-card{display:grid;grid-template-columns:140px 1fr;gap:28px;align-items:start;margin:70px 0;padding:30px;border:1px solid #d7dfeb;border-radius:18px;background:#f8faff}.author-card img{width:140px;height:140px;border-radius:18px;object-fit:cover}.author-card h2{margin:0 0 12px;font-size:2rem}.author-card p{margin-top:0}.sources{font-size:.95rem}.sources li{margin-bottom:15px}.site-footer{padding:34px 0;background:#07152a;color:#aabbd3}.footer-wrap,.footer-links{display:flex;align-items:center;gap:22px}.footer-wrap{justify-content:space-between}.footer-links a{color:#fff;font-size:.9rem;font-weight:750}
+  @media(max-width:900px){.main-nav{display:none}.nav-wrap{justify-content:space-between}.article-layout{grid-template-columns:1fr}.toc{display:none}.assumption-grid{grid-template-columns:1fr}}
+  @media(max-width:640px){.container{width:min(100% - 28px,1160px)}.site-header .button-small{display:none}.nav-wrap{min-height:68px}.brand{font-size:.94rem}.article-hero{padding:46px 0 58px}.breadcrumbs{margin-bottom:32px}h1{font-size:clamp(2.65rem,13vw,4rem)}h2{margin-top:52px;font-size:clamp(2rem,10vw,3rem)}.standfirst{font-size:1.1rem}.article-layout{padding-top:48px;padding-bottom:64px}.inline-cta,.final-cta{padding:28px 22px}.author-card{grid-template-columns:1fr}.author-card img{width:120px;height:120px}.footer-wrap,.footer-links{align-items:flex-start;flex-direction:column}}
+</style>
