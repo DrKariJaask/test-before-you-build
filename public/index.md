@@ -57,6 +57,8 @@ There is no universal interview number for every validation project. The right s
 
 [Read about the market validation process, methods and examples](https://testbeforeyoubuild.com/market-validation/).
 
+[Read the B2B customer research and participant recruitment guide](https://testbeforeyoubuild.com/b2b-customer-research/).
+
 ## Frequently asked questions
 
 ### What kinds of ideas can you test?

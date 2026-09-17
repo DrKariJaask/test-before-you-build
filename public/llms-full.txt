@@ -54,6 +54,18 @@ Full guide: https://testbeforeyoubuild.com/market-validation/
 
 Markdown: https://testbeforeyoubuild.com/market-validation/index.md
 
+## B2B customer research and participant recruitment
+
+Useful B2B customer research begins by defining whose experience, authority or constraints matter to the commercial decision. Users, managers, economic buyers, technical evaluators and procurement professionals may need to be represented and analysed separately.
+
+Participants are selected purposefully using explicit criteria for organisation, role, experience, situation and decision authority. Prospect sources can include company websites, professional networks, industry directories, events, partner ecosystems, existing contacts, referrals and specialist research panels. Several sources help avoid overreliance on one network.
+
+In the standard service, Dr. Kari identifies approximately 30–40 suitable prospects using the agreed target definition. The client approves the list before outreach. Dr. Kari then handles outreach and recruits 20 participants. Larger or multi-segment projects can be scoped separately.
+
+Full guide: https://testbeforeyoubuild.com/b2b-customer-research/
+
+Markdown: https://testbeforeyoubuild.com/b2b-customer-research/index.md
+
 ## Suitability
 
 The service is a strong fit when potential buyers can be identified, the client faces a meaningful build, funding, or commercialisation decision, and the client is willing to change or stop the idea if the evidence points that way.

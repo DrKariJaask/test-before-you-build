@@ -71,6 +71,8 @@ No. The standard €2,900 + VAT service includes 20 interviews. Projects involvi
 
 [Read about the market validation process, methods and examples](https://testbeforeyoubuild.com/market-validation/).
 
+[Read the B2B customer research and participant recruitment guide](https://testbeforeyoubuild.com/b2b-customer-research/).
+
 ## Contact
 
 [Submit your idea](https://testbeforeyoubuild.com/market-validation-services-pricing/#contact).
