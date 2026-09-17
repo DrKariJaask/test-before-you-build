@@ -55,6 +55,8 @@ There is no universal interview number for every validation project. The right s
 
 [Read how to validate a business idea before you build](https://testbeforeyoubuild.com/how-to-validate-a-business-idea/).
 
+[Read about the market validation process, methods and examples](https://testbeforeyoubuild.com/market-validation/).
+
 ## Frequently asked questions
 
 ### What kinds of ideas can you test?

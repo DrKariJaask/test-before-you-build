@@ -42,6 +42,18 @@ Full guide: https://testbeforeyoubuild.com/how-to-validate-a-business-idea/
 
 Markdown: https://testbeforeyoubuild.com/how-to-validate-a-business-idea/index.md
 
+## Market validation process and methods
+
+Market validation is the structured collection and analysis of evidence about a proposed market opportunity. It examines whether a defined customer group experiences a meaningful problem, how customers address it today and whether the conditions for buying or adopting a new solution are credible.
+
+The process defines the decision, maps critical assumptions, specifies realistic buyers and users, reviews existing evidence, selects methods that fit the assumptions, analyses both supporting and contradictory evidence and concludes with a documented BUILD, CHANGE or KILL decision.
+
+Methods can include desk and competitor research, search and behavioural data, customer interviews, surveys, concept or prototype tests, landing-page tests, pilots, pre-sales and procurement discussions. The appropriate method depends on the question and stage; no single method answers every validation question.
+
+Full guide: https://testbeforeyoubuild.com/market-validation/
+
+Markdown: https://testbeforeyoubuild.com/market-validation/index.md
+
 ## Suitability
 
 The service is a strong fit when potential buyers can be identified, the client faces a meaningful build, funding, or commercialisation decision, and the client is willing to change or stop the idea if the evidence points that way.

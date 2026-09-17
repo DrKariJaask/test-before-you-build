@@ -1,0 +1,151 @@
+---
+const title = "Market Validation: Process, Methods and Examples";
+const description =
+  "Learn what market validation means, how the process works, which methods produce useful evidence and how to decide whether to build, change or stop.";
+const canonical = "https://testbeforeyoubuild.com/market-validation/";
+const siteUrl = "https://testbeforeyoubuild.com/";
+const socialImage = `${siteUrl}og.jpg`;
+const published = "2026-09-16";
+const faqs = [
+  { question: "What is market validation?", answer: "Market validation is the process of gathering and analysing evidence to determine whether a defined customer group has a meaningful problem, whether the conditions for adopting a proposed solution are credible and whether the evidence justifies the next commercial investment." },
+  { question: "What are the main market validation methods?", answer: "Common methods include desk and competitor research, search and behavioural data, customer interviews, surveys, concept or prototype tests, landing-page experiments, pilots, pre-sales and procurement discussions. The right method depends on the assumption and decision being tested." },
+  { question: "Is market validation the same as market research?", answer: "No. Market research describes a market, customers, competitors and trends. Market validation tests the specific assumptions behind an idea and connects the resulting evidence to a decision about whether and how to proceed." },
+  { question: "Can interviews validate a market?", answer: "Relevant, well-conducted interviews can provide meaningful evidence about customer problems, current behaviour, buying criteria and barriers to change. They assess the strength, nature and conditions of demand. Some decisions should also be tested with behavioural evidence such as a pilot, pre-sale or procurement step." },
+  { question: "How long does market validation take?", answer: "The timeline depends on the question, target group and methods. Test Before You Build’s standard 20-interview project typically takes approximately 2–4 weeks. Broader or multi-segment studies are scoped separately." },
+  { question: "What should a market validation report include?", answer: "A useful report states the decision and assumptions tested, explains participant selection and methods, presents supporting and contradictory evidence, identifies segment differences and limitations, recommends changes and concludes with a clear next decision." },
+];
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Article", "@id": `${canonical}#article`, headline: title, description, datePublished: published, dateModified: published, mainEntityOfPage: { "@id": `${canonical}#webpage` }, author: { "@id": `${siteUrl}#kari-jaaskelainen` }, publisher: { "@id": `${siteUrl}#organization` }, image: socialImage },
+    { "@type": "WebPage", "@id": `${canonical}#webpage`, url: canonical, name: title, description, isPartOf: { "@id": `${siteUrl}#website` }, breadcrumb: { "@id": `${canonical}#breadcrumb` } },
+    { "@type": "BreadcrumbList", "@id": `${canonical}#breadcrumb`, itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Test Before You Build", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: title, item: canonical },
+    ] },
+    { "@type": "Organization", "@id": `${siteUrl}#organization`, name: "Test Before You Build", url: siteUrl, founder: { "@id": `${siteUrl}#kari-jaaskelainen` } },
+    { "@type": "Person", "@id": `${siteUrl}#kari-jaaskelainen`, name: "Dr. Kari Jääskeläinen", url: `${siteUrl}about-kari-jaaskelainen/`, image: `${siteUrl}kari-jaaskelainen.jpg`, worksFor: { "@id": `${siteUrl}#organization` }, jobTitle: "Customer validation consultant" },
+    { "@type": "FAQPage", "@id": `${canonical}#faq-schema`, mainEntity: faqs.map(({ question, answer }) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })) },
+  ],
+};
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} /><meta name="robots" content="index, follow" /><meta name="theme-color" content="#0b1f3a" />
+    <link rel="canonical" href={canonical} /><link rel="alternate" type="text/markdown" href={`${canonical}index.md`} />
+    <link rel="icon" href="/favicon.ico" sizes="any" /><link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="article" /><meta property="og:url" content={canonical} /><meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:image" content={socialImage} /><meta property="og:site_name" content="Test Before You Build" />
+    <meta property="article:published_time" content={published} /><meta property="article:modified_time" content={published} />
+    <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content={title} /><meta name="twitter:description" content={description} /><meta name="twitter:image" content={socialImage} />
+    <title>{title}</title><script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </head>
+  <body>
+    <header class="site-header"><div class="container nav-wrap"><a class="brand" href="/"><span class="brand-mark"></span><span>Test Before You Build</span></a><nav class="main-nav" aria-label="Primary navigation"><a href="/">Homepage</a><a href="/market-validation-services-pricing/">Services and pricing</a><a href="/about-kari-jaaskelainen/">About Dr. Kari</a></nav><a class="button button-small" href="/#contact">Submit your idea</a></div></header>
+    <main><article>
+      <header class="article-hero"><div class="container article-head">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Test Before You Build</a><span>›</span><span>Market validation</span></nav>
+        <p class="eyebrow">Evidence before investment</p><h1>Market validation: process, methods and examples</h1>
+        <p class="standfirst">Market validation examines whether a defined group of potential buyers or users has a meaningful problem, how they address it today and what would need to be true for them to adopt a new solution. The purpose is to replace critical assumptions with decision-relevant evidence before major development investment.</p>
+        <div class="byline"><img src="/kari-jaaskelainen.jpg" width="72" height="72" alt="Dr. Kari Jääskeläinen" /><div><strong>By <a href="/about-kari-jaaskelainen/">Dr. Kari Jääskeläinen</a></strong><span>Market validation, commercialisation and customer discovery</span><time datetime={published}>Published and updated 16 September 2026</time></div></div>
+        <aside class="scope-summary"><strong>Market validation in one sentence</strong><p>Define the commercial decision, identify the assumptions that matter most, gather the right evidence from the right market and use explicit criteria to decide whether to BUILD, CHANGE or KILL.</p></aside>
+      </div></header>
+
+      <div class="container article-layout"><aside class="toc" aria-label="On this page"><strong>On this page</strong><a href="#definition">Definition</a><a href="#process">The process</a><a href="#methods">Methods</a><a href="#evidence">Evidence quality</a><a href="#examples">Examples</a><a href="#output">The output</a><a href="#faq">FAQ</a></aside>
+      <div class="article-body">
+        <section id="definition"><h2>What market validation means</h2>
+          <p>Market validation is the structured collection and analysis of evidence about a proposed market opportunity. It asks whether the intended customers experience the proposed problem, whether it matters enough to influence behaviour, how existing alternatives perform and whether the conditions for buying or adopting a new solution are credible.</p>
+          <p>Validation is not one survey, one interview or one favourable metric. It is a chain of evidence connected to the assumptions behind a real decision.</p>
+          <blockquote>A method is useful only when it tests an assumption that could change what you decide to do.</blockquote>
+          <h3>Market validation, market research and product validation</h3>
+          <p><strong>Market research</strong> describes the wider environment: customers, competitors, market size, trends and constraints. <strong>Market validation</strong> tests whether the conditions for a specific commercial idea are credible. <strong>Product validation</strong> examines whether a proposed solution works for customers, for example through concept, prototype or usability testing.</p>
+          <p>The activities overlap, but they answer different questions. A market can be large while a particular idea remains weak. A prototype can be usable while the problem lacks commercial urgency.</p>
+          <h3>What market validation can and cannot do</h3>
+          <p>Market validation can reduce uncertainty, expose incorrect assumptions, reveal segment differences and show what evidence supports the next investment. It cannot guarantee future sales or remove the risks of execution, competition and market change.</p>
+        </section>
+
+        <section id="process"><h2>The market validation process</h2>
+          <ol class="steps">
+            <li><strong>Define the decision.</strong><span>State the investment or direction the evidence must inform. A clear decision prevents research from becoming an open-ended information exercise.</span></li>
+            <li><strong>Map the critical assumptions.</strong><span>List what must be true about the customer, problem, current alternatives, value, buying process, feasibility and commercial model.</span></li>
+            <li><strong>Define the target market precisely.</strong><span>Identify realistic buyers, users, influencers and decision-makers by role, context, current behaviour and trigger.</span></li>
+            <li><strong>Review existing evidence.</strong><span>Examine market data, competitors, substitutes, search behaviour, regulation and internal customer knowledge. Record what is known and what remains uncertain.</span></li>
+            <li><strong>Select methods for the assumptions.</strong><span>Use discovery methods for unknown problems and behaviour. Use experiments that require commitment when the question concerns adoption or willingness to pay.</span></li>
+            <li><strong>Collect and analyse evidence.</strong><span>Look for recurring signals, meaningful disagreements, segment differences, exceptions and barriers. Do not count only supportive responses.</span></li>
+            <li><strong>Make and document the decision.</strong><span>Compare the evidence with criteria set in advance. Explain what supports BUILD, what requires CHANGE, what supports KILL and what remains unresolved.</span></li>
+          </ol>
+          <p>This sequence is iterative. New evidence may change the target group, reveal a different problem or create a new assumption that needs its own test. Iteration is useful when it responds to evidence—not when it is used to avoid a difficult decision.</p>
+          <p><a href="/how-to-validate-a-business-idea/">Read the detailed guide to validating a business idea before you build</a>.</p>
+        </section>
+
+        <aside class="inline-cta"><p class="eyebrow">Independent market validation</p><h2>Test the market without having to defend the idea.</h2><p>Dr. Kari selects and interviews realistic potential buyers or users, analyses the evidence and provides a clear BUILD, CHANGE or KILL recommendation.</p><a class="button" href="/market-validation-services-pricing/">See the service and pricing</a></aside>
+
+        <section id="methods"><h2>Market validation methods and when to use them</h2>
+          <p>The strongest method is not always the most expensive or technically impressive. It is the method that produces relevant evidence for the specific assumption at the current stage.</p>
+          <div class="table-wrap"><table><thead><tr><th>Method</th><th>Best used for</th><th>What to watch</th></tr></thead><tbody>
+            <tr><td>Desk and competitor research</td><td>Market structure, trends, alternatives, regulation and possible segments</td><td>Published data may be broad, old or disconnected from the specific buying situation</td></tr>
+            <tr><td>Search and behavioural data</td><td>Customer language, existing interest, journeys and observable behaviour</td><td>Attention does not identify urgency, authority or willingness to change</td></tr>
+            <tr><td>Customer discovery interviews</td><td>Problems, consequences, current workarounds, decision criteria and barriers</td><td>Participant relevance, leading questions and hypothetical answers</td></tr>
+            <tr><td>Survey</td><td>Testing the prevalence or distribution of well-defined findings in a larger group</td><td>A survey is weak when the questions and answer options are based on untested assumptions</td></tr>
+            <tr><td>Concept or prototype test</td><td>Comprehension, perceived relevance, workflow and usability</td><td>Positive feedback is weaker than a concrete commitment</td></tr>
+            <tr><td>Landing page or message test</td><td>Which promise attracts attention and a measurable next action</td><td>Clicks may reflect curiosity rather than purchasing intent</td></tr>
+            <tr><td>Pilot or concierge test</td><td>Real use, delivery requirements, measurable value and organisational adoption</td><td>Manual delivery or a friendly pilot may not represent scalable economics</td></tr>
+            <tr><td>Pre-sale, deposit or procurement step</td><td>Willingness to commit money, budget, time, reputation or process</td><td>Requires a sufficiently clear offer and appropriate commercial and legal handling</td></tr>
+          </tbody></table></div>
+          <h3>Start with discovery when the problem is uncertain</h3>
+          <p>When little is known about customers’ actual situations, direct interviews are usually more informative than a large closed-question survey. Interviews can uncover language, workflows, alternatives and decision factors that the research team did not know to include in a questionnaire.</p>
+          <h3>Add commitment tests when the offer becomes clearer</h3>
+          <p>As uncertainty moves from the problem to adoption, the evidence should move closer to behaviour. A prototype, pilot, pre-sale or procurement discussion can test conditions that interviews alone cannot settle. The sequence depends on the idea; it is not necessary to build a full product before testing commitment.</p>
+          <p><a href="/how-many-customer-interviews/">Read how to determine an appropriate customer-interview scope</a>.</p>
+        </section>
+
+        <section id="evidence"><h2>How to judge the strength of market-validation evidence</h2>
+          <p>Large quantities of weak evidence do not automatically create a strong conclusion. Assess evidence across five dimensions:</p>
+          <div class="factor-grid">
+            <div><h3>Relevance</h3><p>Did the evidence come from realistic buyers, users or decision-makers in the defined market?</p></div>
+            <div><h3>Specificity</h3><p>Does it concern actual problems and behaviour, or broad opinions about an imagined future?</p></div>
+            <div><h3>Commitment</h3><p>Did the customer risk time, budget, process, reputation or money?</p></div>
+            <div><h3>Consistency</h3><p>Do signals recur, and can important contradictions or segment differences be explained?</p></div>
+            <div><h3>Decision fit</h3><p>Is the evidence strong enough for this particular next investment, including its cost and reversibility?</p></div>
+          </div>
+          <h3>Negative and contradictory evidence is valuable</h3>
+          <p>A useful validation process is designed to uncover reasons not to proceed. A weak problem, satisfied customers, inaccessible buyers, prohibitive integration requirements or an unworkable procurement route can prevent a costly mistake. Contradictions may also reveal that two apparently similar groups are separate markets.</p>
+        </section>
+
+        <section id="examples"><h2>Three market validation examples</h2>
+          <p>The following examples are illustrative scenarios, not client case studies or claimed results.</p>
+          <div class="example-card"><p class="eyebrow">Example 1 · B2B software</p><h3>Testing a workflow problem before developing the platform</h3><p>A team believes operations managers need software to replace a spreadsheet-based process. Market and competitor research identifies alternatives. Interviews with users, budget holders and IT reveal how often the problem occurs, what the current process costs and which security and integration requirements could block adoption. A limited pilot then tests whether one workflow creates measurable value.</p><p><strong>Possible decision:</strong> CHANGE the initial broad platform into a narrower workflow product for one segment.</p></div>
+          <div class="example-card"><p class="eyebrow">Example 2 · Research-based innovation</p><h3>Separating technical promise from a viable route to market</h3><p>A university team has developed a new measurement technology. Interviews distinguish laboratory users, equipment manufacturers, procurement teams and organisations that carry the financial consequence of inaccurate measurement. The evidence tests whether the most promising route is a product, component, licence or partnership.</p><p><strong>Possible decision:</strong> BUILD a partner-led demonstration instead of manufacturing a complete product.</p></div>
+          <div class="example-card"><p class="eyebrow">Example 3 · Consumer service</p><h3>Testing urgency and commitment behind stated interest</h3><p>Interviews examine when the problem occurs, how consumers solve it today and what prevents them from changing. A landing page compares two value propositions, followed by a small paid or deposit-based test where appropriate. The team distinguishes curiosity from willingness to take the next step.</p><p><strong>Possible decision:</strong> KILL the original positioning or CHANGE the target situation before investing in the service platform.</p></div>
+        </section>
+
+        <section id="output"><h2>What the market validation output should contain</h2>
+          <p>A credible validation output should make the reasoning inspectable. It should include:</p>
+          <ul><li>the commercial decision and assumptions tested;</li><li>the target definition and participant-selection logic;</li><li>the methods used and why they fit the questions;</li><li>supporting evidence, contradictory evidence and segment differences;</li><li>current alternatives, buying criteria and barriers to change;</li><li>limitations and unresolved questions;</li><li>recommended changes and next tests;</li><li>a clear BUILD, CHANGE or KILL recommendation.</li></ul>
+          <p>The recommendation should not hide uncertainty. It should explain whether the evidence supports the next investment and what still needs to be learned.</p>
+        </section>
+
+        <section id="faq"><p class="eyebrow">Frequently asked questions</p><h2>Questions about market validation</h2><div class="faq-list">{faqs.map(({ question, answer }) => <details><summary>{question}</summary><p>{answer}</p></details>)}</div></section>
+
+        <section class="final-cta"><p class="eyebrow eyebrow-light">Make the next decision with evidence</p><h2>Independent market validation before development.</h2><p>The standard project includes target definition, prospect selection and client approval, recruitment, 20 interviews, transcripts, analysis, a written report, recommended changes and a BUILD, CHANGE or KILL recommendation.</p><p>Fixed price: €2,900 + VAT. Typical timeline: approximately 2–4 weeks. Larger and multi-segment projects can be scoped separately.</p><a class="button button-light" href="/#contact">Submit your idea</a></section>
+
+        <section class="author-card"><img src="/kari-jaaskelainen.jpg" width="160" height="160" alt="Dr. Kari Jääskeläinen" loading="lazy" /><div><p class="eyebrow">About the author</p><h2>Dr. Kari Jääskeläinen</h2><p>Dr. Kari Jääskeläinen is an entrepreneur, business leader and consultant with experience in market validation, technology commercialisation, business development and sales. He has worked on around 200 commercialisation and consulting projects and has made approximately 2,000 sales calls a year.</p><a class="text-link" href="/about-kari-jaaskelainen/">Read about Dr. Kari Jääskeläinen’s experience →</a></div></section>
+
+        <section class="sources"><h2>Sources and further reading</h2><ol>
+          <li>Harvard Business School Online. <a href="https://online.hbs.edu/blog/post/market-validation"><cite>5 Steps to Validate Your Business Idea</cite></a>.</li>
+          <li>U.S. Small Business Administration. <a href="https://www.sba.gov/business-guide/plan-your-business/market-research-competitive-analysis"><cite>Market Research and Competitive Analysis</cite></a>.</li>
+          <li>Strategyzer. <a href="https://www.strategyzer.com/library/how-to-select-the-next-best-test-from-the-experiment-library"><cite>How to Select the Next Best Test from the Experiment Library</cite></a>.</li>
+          <li>U.S. National Science Foundation. <a href="https://www.nsf.gov/funding/initiatives/i-corps"><cite>NSF I-Corps</cite></a>.</li>
+        </ol></section>
+      </div></div>
+    </article></main>
+    <footer class="site-footer"><div class="container footer-wrap"><span>© 2026 Test Before You Build</span><div class="footer-links"><a href="/">Homepage</a><a href="/market-validation-services-pricing/">Services and pricing</a><a href="/how-to-validate-a-business-idea/">Business idea validation</a><a href="/about-kari-jaaskelainen/">About Dr. Kari</a><a href="/privacy/">Privacy</a></div></div></footer>
+  </body>
+</html>
+
+<style>
+  :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#0d1930;background:#fff;line-height:1.68;font-synthesis:none;text-rendering:optimizeLegibility}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}.container{width:min(1160px,calc(100% - 40px));margin:0 auto}.site-header{position:sticky;top:0;z-index:20;border-bottom:1px solid #dce4ef;background:rgba(255,255,255,.94);backdrop-filter:blur(14px)}.nav-wrap{min-height:76px;display:flex;align-items:center;gap:28px}.brand{display:inline-flex;align-items:center;gap:11px;font-weight:900;text-decoration:none;white-space:nowrap}.brand-mark{width:18px;height:18px;border-radius:5px;background:#155eef;box-shadow:8px 8px 0 #79a2ff}.main-nav{display:flex;align-items:center;gap:25px;margin-left:auto}.main-nav a{color:#405573;font-size:.94rem;font-weight:750;text-decoration:none}.button{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border:0;border-radius:10px;background:#155eef;color:#fff;font-weight:850;text-decoration:none}.button-small{padding:11px 17px;font-size:.92rem}.button-light{background:#fff;color:#102a4f}.article-hero{padding:70px 0;background:linear-gradient(140deg,#f5f8ff 0%,#fff 70%)}.article-head{max-width:980px}.breadcrumbs{display:flex;gap:10px;margin-bottom:46px;color:#687a95;font-size:.88rem}.breadcrumbs a{font-weight:750}.eyebrow{margin:0 0 14px;color:#155eef;font-size:1rem;line-height:1.3;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.eyebrow-light{color:#8bb4ff}h1,h2,h3{margin-top:0;letter-spacing:-.018em}h1{max-width:940px;margin-bottom:28px;font-size:clamp(3rem,6vw,5rem);line-height:1.04}h2{margin:64px 0 22px;font-size:clamp(2rem,4vw,3.1rem);line-height:1.13}h3{margin:40px 0 13px;font-size:1.38rem;line-height:1.3}.standfirst{max-width:850px;margin:0;color:#405573;font-size:1.27rem;line-height:1.72}.byline{display:flex;align-items:center;gap:15px;margin-top:32px}.byline img{border-radius:50%;object-fit:cover}.byline div{display:flex;flex-direction:column}.byline span,.byline time{color:#687a95;font-size:.87rem}.scope-summary{margin-top:40px;padding:24px 28px;border-left:5px solid #155eef;background:#eef4ff}.scope-summary p{margin:5px 0 0;color:#405573}.article-layout{display:grid;grid-template-columns:220px minmax(0,760px);justify-content:center;gap:78px;padding-top:78px;padding-bottom:96px}.toc{position:sticky;top:112px;align-self:start;display:flex;flex-direction:column;gap:10px;padding:20px;border-left:3px solid #d9e3f2;color:#536781;font-size:.88rem}.toc strong{margin-bottom:5px;color:#0d1930}.toc a{text-decoration:none}.article-body{min-width:0;color:#405573;font-size:1.08rem}.article-body section{scroll-margin-top:110px}.article-body p,.article-body li{max-width:72ch}.article-body h2,.article-body h3{color:#0d1930}.article-body ul{padding-left:22px}.article-body li{margin:9px 0}.article-body a:not(.button){color:#155eef;text-underline-offset:3px}.article-body blockquote{margin:34px 0;padding:22px 28px;border-left:5px solid #155eef;background:#f4f7fb;color:#102a4f;font-size:1.2rem;font-weight:800}.inline-cta{margin:70px 0;padding:36px;border-radius:20px;background:#0b1f3a;color:#fff}.inline-cta h2{margin:0 0 18px;color:#fff;font-size:2rem}.inline-cta p:not(.eyebrow){color:#dce8fa}.steps{padding:0;list-style:none;counter-reset:steps}.steps li{display:grid;grid-template-columns:1fr;gap:2px;margin:0;padding:19px 0 19px 48px;border-bottom:1px solid #d7dfeb;position:relative;counter-increment:steps}.steps li:before{content:counter(steps);position:absolute;left:0;top:17px;display:grid;width:31px;height:31px;place-items:center;border-radius:50%;background:#155eef;color:#fff;font-weight:900}.steps span{color:#536781}.table-wrap{overflow-x:auto;margin:28px 0}table{width:100%;border-collapse:collapse;font-size:.95rem}th,td{padding:15px;border:1px solid #d7dfeb;text-align:left;vertical-align:top}th{background:#0b1f3a;color:#fff}.factor-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0}.factor-grid>div{padding:23px;border:1px solid #d7dfeb;border-radius:14px;background:#f8faff}.factor-grid h3{margin:0 0 7px}.factor-grid p{margin:0}.example-card{margin:24px 0;padding:28px;border:1px solid #d7dfeb;border-radius:16px;background:#f8faff}.example-card h3{margin:0 0 12px}.example-card p:last-child{margin-bottom:0}.faq-list{border-top:1px solid #d2dbe8}.faq-list details{border-bottom:1px solid #d2dbe8}.faq-list summary{padding:20px 34px 20px 0;color:#0d1930;font-weight:850;cursor:pointer}.faq-list p{margin:0;padding:0 34px 20px 0}.final-cta{margin:76px 0;padding:42px;border-radius:22px;background:#155eef;color:#fff}.final-cta h2{margin:0 0 20px;color:#fff}.final-cta p{color:#e9f0ff}.author-card{display:grid;grid-template-columns:140px 1fr;gap:28px;align-items:start;margin:70px 0;padding:30px;border:1px solid #d7dfeb;border-radius:18px;background:#f8faff}.author-card img{width:140px;height:140px;border-radius:18px;object-fit:cover}.author-card h2{margin:0 0 12px;font-size:2rem}.author-card p{margin-top:0}.sources{font-size:.95rem}.sources li{margin-bottom:15px}.site-footer{padding:34px 0;background:#07152a;color:#aabbd3}.footer-wrap,.footer-links{display:flex;align-items:center;gap:22px}.footer-wrap{justify-content:space-between}.footer-links a{color:#fff;font-size:.9rem;font-weight:750}
+  @media(max-width:900px){.main-nav{display:none}.nav-wrap{justify-content:space-between}.article-layout{grid-template-columns:1fr}.toc{display:none}.factor-grid{grid-template-columns:1fr}}
+  @media(max-width:640px){.container{width:min(100% - 28px,1160px)}.site-header .button-small{display:none}.nav-wrap{min-height:68px}.brand{font-size:.94rem}.article-hero{padding:46px 0 58px}.breadcrumbs{margin-bottom:32px}h1{font-size:clamp(2.65rem,13vw,4rem)}h2{margin-top:52px;font-size:clamp(2rem,10vw,3rem)}.standfirst{font-size:1.1rem}.article-layout{padding-top:48px;padding-bottom:64px}.inline-cta,.final-cta{padding:28px 22px}.author-card{grid-template-columns:1fr}.author-card img{width:120px;height:120px}.footer-wrap,.footer-links{align-items:flex-start;flex-direction:column}}
+</style>

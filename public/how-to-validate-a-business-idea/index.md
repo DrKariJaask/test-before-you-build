@@ -21,6 +21,8 @@ No research method can guarantee future sales. Good validation makes the remaini
 
 Market research can describe market size, competitors, trends and customer categories. Validation applies evidence to the specific assumptions and decision behind one idea. A large market does not establish that a particular customer will adopt a particular solution through a workable buying process.
 
+[Read the complete market validation process, methods and examples](https://testbeforeyoubuild.com/market-validation/).
+
 ## Start with the assumptions that must be true
 
 - **Customer:** Can you identify realistic buyers, users and other decision-makers precisely enough to reach them?
