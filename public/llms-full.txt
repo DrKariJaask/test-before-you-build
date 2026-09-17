@@ -86,6 +86,16 @@ Full guide: https://testbeforeyoubuild.com/how-to-validate-a-saas-idea/
 
 Markdown: https://testbeforeyoubuild.com/how-to-validate-a-saas-idea/index.md
 
+## Willingness-to-pay validation
+
+Willingness to pay should be tested in the context of a defined customer, offer, alternative and buying situation. Research begins with the consequences of the problem, current spending and workarounds, budget ownership and approval criteria before presenting a price.
+
+Stated interest is early evidence. Stronger evidence comes from action with a consequence, such as contributed time or data, access to decision-makers, a paid pilot, deposit, procurement progress or completed purchase. A rejected offer should be diagnosed before assuming that price alone caused the result.
+
+Full guide: https://testbeforeyoubuild.com/how-to-test-willingness-to-pay/
+
+Markdown: https://testbeforeyoubuild.com/how-to-test-willingness-to-pay/index.md
+
 ## Suitability
 
 The service is a strong fit when potential buyers can be identified, the client faces a meaningful build, funding, or commercialisation decision, and the client is willing to change or stop the idea if the evidence points that way.

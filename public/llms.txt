@@ -22,6 +22,8 @@ Service provider: Dr. Kari Jääskeläinen, entrepreneur, business leader, and c
 - [Customer discovery interviews guide in Markdown](https://testbeforeyoubuild.com/customer-discovery-interviews/index.md): Text equivalent of the customer discovery interviews guide.
 - [How to validate a SaaS idea before building an MVP](https://testbeforeyoubuild.com/how-to-validate-a-saas-idea/): Guide to testing SaaS problems, buyers, purchase paths, concepts and commitments before development.
 - [SaaS idea validation guide in Markdown](https://testbeforeyoubuild.com/how-to-validate-a-saas-idea/index.md): Text equivalent of the SaaS validation guide.
+- [How to test willingness to pay before you build](https://testbeforeyoubuild.com/how-to-test-willingness-to-pay/): Guide to current costs, pricing evidence, offers, pilots, buying authority and real commitments.
+- [Willingness-to-pay guide in Markdown](https://testbeforeyoubuild.com/how-to-test-willingness-to-pay/index.md): Text equivalent of the willingness-to-pay guide.
 - [How many customer interviews are enough?](https://testbeforeyoubuild.com/how-many-customer-interviews/): Evidence-based guide to interview sample size, information sufficiency and project scoping.
 - [Customer interview guide in Markdown](https://testbeforeyoubuild.com/how-many-customer-interviews/index.md): Text equivalent of the customer interview guide.
 - [About Dr. Kari Jääskeläinen](https://testbeforeyoubuild.com/about-kari-jaaskelainen/): Professional background, selected experience and relevance to independent market validation.

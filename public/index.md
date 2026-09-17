@@ -63,6 +63,8 @@ There is no universal interview number for every validation project. The right s
 
 [Read how to validate a SaaS idea before building an MVP](https://testbeforeyoubuild.com/how-to-validate-a-saas-idea/).
 
+[Read how to test willingness to pay before you build](https://testbeforeyoubuild.com/how-to-test-willingness-to-pay/).
+
 ## Frequently asked questions
 
 ### What kinds of ideas can you test?

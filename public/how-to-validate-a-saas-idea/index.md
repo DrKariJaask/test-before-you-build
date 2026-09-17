@@ -33,6 +33,8 @@ Use interviews and observation for the problem, concept or prototype tests for w
 
 Early signals such as praise, stated intention, sign-ups and feature requests can guide the next test. Stronger signals include contributed time or data, access to decision-makers, pilot participation, procurement progress, payment and signed commitments.
 
+[Read how to test willingness to pay before you build](https://testbeforeyoubuild.com/how-to-test-willingness-to-pay/).
+
 ## BUILD, CHANGE or KILL
 
 BUILD when the focused segment shows an important recurring problem, a reason to change, a feasible buying route and enough commitment for the next bounded investment. CHANGE when the need is real but the segment, workflow, promise, pricing, sales route or concept is wrong. KILL when the evidence does not justify the investment and no credible adjustment resolves the weakness.
