@@ -18,6 +18,8 @@ Service provider: Dr. Kari Jääskeläinen, entrepreneur, business leader, and c
 - [Market validation guide in Markdown](https://testbeforeyoubuild.com/market-validation/index.md): Text equivalent of the market validation guide.
 - [B2B customer research and participant recruitment](https://testbeforeyoubuild.com/b2b-customer-research/): Guide to defining, finding, screening and recruiting relevant B2B interview participants.
 - [B2B customer research guide in Markdown](https://testbeforeyoubuild.com/b2b-customer-research/index.md): Text equivalent of the B2B customer research guide.
+- [Customer discovery interviews: questions, process and evidence](https://testbeforeyoubuild.com/customer-discovery-interviews/): Guide to interview design, neutral questions, evidence analysis and decision-making.
+- [Customer discovery interviews guide in Markdown](https://testbeforeyoubuild.com/customer-discovery-interviews/index.md): Text equivalent of the customer discovery interviews guide.
 - [How many customer interviews are enough?](https://testbeforeyoubuild.com/how-many-customer-interviews/): Evidence-based guide to interview sample size, information sufficiency and project scoping.
 - [Customer interview guide in Markdown](https://testbeforeyoubuild.com/how-many-customer-interviews/index.md): Text equivalent of the customer interview guide.
 - [About Dr. Kari Jääskeläinen](https://testbeforeyoubuild.com/about-kari-jaaskelainen/): Professional background, selected experience and relevance to independent market validation.

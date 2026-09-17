@@ -52,6 +52,8 @@ As uncertainty moves from the problem to adoption, the evidence should move clos
 
 [Read how to find and recruit the right B2B interview participants](https://testbeforeyoubuild.com/b2b-customer-research/).
 
+[Read how to conduct customer discovery interviews and analyse the evidence](https://testbeforeyoubuild.com/customer-discovery-interviews/).
+
 ## How to judge the strength of market-validation evidence
 
 - **Relevance:** Did the evidence come from realistic buyers, users or decision-makers?

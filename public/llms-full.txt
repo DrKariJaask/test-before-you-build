@@ -66,6 +66,16 @@ Full guide: https://testbeforeyoubuild.com/b2b-customer-research/
 
 Markdown: https://testbeforeyoubuild.com/b2b-customer-research/index.md
 
+## Customer discovery interviews
+
+Customer discovery interviews examine how potential buyers or users experience a problem and make decisions around it. Useful interviews focus on recent real events, current behaviour, consequences, alternatives, buying criteria, decision-makers and barriers rather than asking participants whether they like an idea.
+
+A semi-structured guide keeps core themes consistent while allowing neutral follow-up questions. Evidence is analysed across transcripts by separating observation, interpretation and decision implication; comparing relevant roles and segments; retaining contradictions; and testing the assumptions behind the commercial decision.
+
+Full guide: https://testbeforeyoubuild.com/customer-discovery-interviews/
+
+Markdown: https://testbeforeyoubuild.com/customer-discovery-interviews/index.md
+
 ## Suitability
 
 The service is a strong fit when potential buyers can be identified, the client faces a meaningful build, funding, or commercialisation decision, and the client is willing to change or stop the idea if the evidence points that way.

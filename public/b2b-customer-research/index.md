@@ -45,6 +45,8 @@ Use several sources when one source would overrepresent a particular network, co
 
 ## A practical recruitment process
 
+[Read the customer discovery interview questions, process and evidence guide](https://testbeforeyoubuild.com/customer-discovery-interviews/).
+
 1. Define the decision and participant groups.
 2. Set coverage goals for important roles or segments.
 3. Create observable inclusion and exclusion criteria.

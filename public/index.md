@@ -59,6 +59,8 @@ There is no universal interview number for every validation project. The right s
 
 [Read the B2B customer research and participant recruitment guide](https://testbeforeyoubuild.com/b2b-customer-research/).
 
+[Read the customer discovery interviews guide](https://testbeforeyoubuild.com/customer-discovery-interviews/).
+
 ## Frequently asked questions
 
 ### What kinds of ideas can you test?
