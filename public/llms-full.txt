@@ -76,6 +76,16 @@ Full guide: https://testbeforeyoubuild.com/customer-discovery-interviews/
 
 Markdown: https://testbeforeyoubuild.com/customer-discovery-interviews/index.md
 
+## SaaS idea validation before an MVP
+
+SaaS validation should test the expensive assumptions before turning them into software. Define the target segment and commercial decision, investigate real customer behaviour and alternatives, map users and buyers, test the smallest credible concept and seek a commitment proportionate to the stage.
+
+An MVP is useful when functioning software is the cheapest credible way to answer the next important uncertainty. Earlier questions can often be tested through customer interviews, workflow observation, prototypes, concierge tests, concrete offers and pilot or procurement discussions.
+
+Full guide: https://testbeforeyoubuild.com/how-to-validate-a-saas-idea/
+
+Markdown: https://testbeforeyoubuild.com/how-to-validate-a-saas-idea/index.md
+
 ## Suitability
 
 The service is a strong fit when potential buyers can be identified, the client faces a meaningful build, funding, or commercialisation decision, and the client is willing to change or stop the idea if the evidence points that way.

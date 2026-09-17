@@ -61,6 +61,8 @@ There is no universal interview number for every validation project. The right s
 
 [Read the customer discovery interviews guide](https://testbeforeyoubuild.com/customer-discovery-interviews/).
 
+[Read how to validate a SaaS idea before building an MVP](https://testbeforeyoubuild.com/how-to-validate-a-saas-idea/).
+
 ## Frequently asked questions
 
 ### What kinds of ideas can you test?
