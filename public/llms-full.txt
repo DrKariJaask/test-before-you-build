@@ -106,6 +106,16 @@ Full guide: https://testbeforeyoubuild.com/how-to-validate-a-customer-problem/
 
 Markdown: https://testbeforeyoubuild.com/how-to-validate-a-customer-problem/index.md
 
+## Customer interview bias
+
+Customer interview bias can enter through participant selection, question wording, interviewer reactions, solution pitching, recall, interpretation and selective reporting. Accurate transcripts do not repair an irrelevant sample or leading questions.
+
+Bias is reduced by defining assumptions and disconfirming evidence in advance, recruiting beyond friendly contacts, using neutral questions about real events, separating discovery from concept feedback, preserving contradictions and analysing observations separately from interpretations and decision implications.
+
+Full guide: https://testbeforeyoubuild.com/customer-interview-bias/
+
+Markdown: https://testbeforeyoubuild.com/customer-interview-bias/index.md
+
 ## Suitability
 
 The service is a strong fit when potential buyers can be identified, the client faces a meaningful build, funding, or commercialisation decision, and the client is willing to change or stop the idea if the evidence points that way.

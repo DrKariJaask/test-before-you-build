@@ -67,6 +67,8 @@ There is no universal interview number for every validation project. The right s
 
 [Read how to validate a customer problem before designing the solution](https://testbeforeyoubuild.com/how-to-validate-a-customer-problem/).
 
+[Read about customer interview bias, leading questions and other mistakes](https://testbeforeyoubuild.com/customer-interview-bias/).
+
 ## Frequently asked questions
 
 ### What kinds of ideas can you test?

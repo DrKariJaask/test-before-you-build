@@ -57,6 +57,8 @@ Analyse them systematically across participants, compare roles and segments, ret
 
 [Read how to validate a customer problem before designing the solution](https://testbeforeyoubuild.com/how-to-validate-a-customer-problem/).
 
+[Read about leading questions and other sources of customer interview bias](https://testbeforeyoubuild.com/customer-interview-bias/).
+
 ## Independent customer discovery
 
 The standard Test Before You Build project includes target definition, approximately 30–40 suitable prospects for client approval, recruitment, 20 interviews, transcripts, evidence analysis, a written report, recommended changes and a BUILD, CHANGE or KILL recommendation.
