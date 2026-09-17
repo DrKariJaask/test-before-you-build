@@ -65,6 +65,8 @@ There is no universal interview number for every validation project. The right s
 
 [Read how to test willingness to pay before you build](https://testbeforeyoubuild.com/how-to-test-willingness-to-pay/).
 
+[Read how to validate a customer problem before designing the solution](https://testbeforeyoubuild.com/how-to-validate-a-customer-problem/).
+
 ## Frequently asked questions
 
 ### What kinds of ideas can you test?

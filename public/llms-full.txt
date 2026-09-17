@@ -96,6 +96,16 @@ Full guide: https://testbeforeyoubuild.com/how-to-test-willingness-to-pay/
 
 Markdown: https://testbeforeyoubuild.com/how-to-test-willingness-to-pay/index.md
 
+## Customer problem validation
+
+Problem validation tests whether a defined customer group repeatedly experiences a specific problem, whether its consequences matter and whether it is important enough to influence behaviour or a commercial decision. The problem should be described without embedding the proposed solution.
+
+Useful evidence includes recent real events, meaningful consequences, current spending or workarounds, insufficient alternatives, identifiable ownership and credible buying conditions. Problem evidence is collected before solution feedback so that a polished concept does not steer the findings.
+
+Full guide: https://testbeforeyoubuild.com/how-to-validate-a-customer-problem/
+
+Markdown: https://testbeforeyoubuild.com/how-to-validate-a-customer-problem/index.md
+
 ## Suitability
 
 The service is a strong fit when potential buyers can be identified, the client faces a meaningful build, funding, or commercialisation decision, and the client is willing to change or stop the idea if the evidence points that way.

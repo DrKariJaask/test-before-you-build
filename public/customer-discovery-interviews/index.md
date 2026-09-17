@@ -55,6 +55,8 @@ Analyse them systematically across participants, compare roles and segments, ret
 
 [Read how to validate a SaaS idea before building an MVP](https://testbeforeyoubuild.com/how-to-validate-a-saas-idea/).
 
+[Read how to validate a customer problem before designing the solution](https://testbeforeyoubuild.com/how-to-validate-a-customer-problem/).
+
 ## Independent customer discovery
 
 The standard Test Before You Build project includes target definition, approximately 30–40 suitable prospects for client approval, recruitment, 20 interviews, transcripts, evidence analysis, a written report, recommended changes and a BUILD, CHANGE or KILL recommendation.
